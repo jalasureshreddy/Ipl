@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="main_topics">
+        <item>Teams</item>
+        <item>Match Schedules</item>
+        <item>Stadiums</item>
+    </string-array>
+</resources>
