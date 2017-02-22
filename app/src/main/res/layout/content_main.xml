@@ -18,7 +18,7 @@
         app:viewpager_pagerTitleStrip="@layout/main_tabs"
         app:viewpager_logoMarginTop="100.0dip"
         app:viewpager_color="@color/colorWhite"
-        app:viewpager_headerHeight="200.0dip"
+        app:viewpager_headerHeight="220.0dip"
         app:viewpager_headerAlpha="1.0"
         app:viewpager_imageHeaderDarkLayerAlpha="0.2"
         app:viewpager_hideToolbarAndTitle="true"

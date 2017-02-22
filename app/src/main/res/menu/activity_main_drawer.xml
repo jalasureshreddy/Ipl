@@ -2,34 +2,52 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
+
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Categories">
+            <menu>
+                <item
+                    android:id="@+id/nav_team"
+                    android:title="Teams" />
+
+                <item
+                    android:id="@+id/nav_match"
+                    android:title="Match Schedules" />
+
+                <item
+                    android:id="@+id/nav_stay"
+                    android:title="Stadium Matches" />
+            </menu>
+        </item>
+
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@mipmap/ic_share_black_48dp"
                 android:title="Share" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_rate"
+                android:icon="@mipmap/ic_grade_black_48dp"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@mipmap/ic_feedback_black_48dp"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_play"
+                android:icon="@mipmap/ic_shop_black_48dp"
+                android:title="More apps" />
+            <item
+                android:id="@+id/nav_abt"
+                android:icon="@mipmap/ic_info_black_48dp"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@mipmap/ic_exit_to_app_black_48dp"
+                android:title="Exit" />
         </menu>
     </item>
 

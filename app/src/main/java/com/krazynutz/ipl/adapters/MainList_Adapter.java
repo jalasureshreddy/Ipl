@@ -1,6 +1,7 @@
 package com.krazynutz.ipl.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.krazynutz.ipl.R;
+import com.krazynutz.ipl.activites.MatchesList;
+import com.krazynutz.ipl.activites.Stadium_List;
 
 import java.util.List;
 
@@ -52,11 +55,28 @@ public class MainList_Adapter extends RecyclerView.Adapter<MainList_Adapter.MyVi
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onBindViewHolder(MyViewHolder holder, final int position)
+    {
 
         holder.title.setText(datalist_H.get(position));
+        holder.title.setTypeface(Typeface.createFromAsset(mContext.getAssets(), "Oxygen.otf"));
 
-        holder.title.setTypeface(Typeface.createFromAsset(mContext.getAssets(), "BreeSerif-Regular.ttf"));
+        holder.title.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(position == 1)
+                {
+                    Intent i = new Intent(mContext, MatchesList.class);
+                    mContext.startActivity(i);
+                }
+
+                if(position == 2)
+                {
+                    Intent i = new Intent(mContext, Stadium_List.class);
+                    mContext.startActivity(i);
+                }
+            }
+        });
     }
 
     @Override

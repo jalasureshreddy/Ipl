@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/app_logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -18,6 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".activites.MatchesList"
+            android:label="Match Schedule List"
+            android:parentActivityName=".activites.DashBoard">
+        </activity>
+
+        <activity android:name=".activites.Stadium_List"
+            android:label="List of Stadiums"
+            android:parentActivityName=".activites.DashBoard"/>
     </application>
 
 </manifest>
