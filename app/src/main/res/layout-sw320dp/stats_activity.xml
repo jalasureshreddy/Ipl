@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainView"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4.0dp"
+            card_view:cardElevation="10.0dp"
+            card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:background="#fdc173"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/text_320dp_lines"
+                        android:gravity="center_horizontal"
+                        android:text="Most Runs" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip">
+
+                <TableRow
+                    android:id="@+id/psts_table1"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:paddingLeft="8.0dip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+
+                        <TextView
+                            android:textColor="@color/colorTextPrimary"
+                            android:gravity="left"
+                            android:layout_gravity="left"
+                            android:id="@+id/txt_player1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Player"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textColor="@color/colorTextPrimary"
+                        android:gravity="center"
+                        android:id="@+id/txt_inn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="Innings"
+                        android:textStyle="bold"
+                        android:ems="5" />
+
+                    <TextView
+                        android:textColor="@color/colorTextPrimary"
+                        android:gravity="center"
+                        android:id="@+id/txt_no1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="Runs"
+                        android:textStyle="bold"
+                        android:ems="5" />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/colorTextSecondaryTransparent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip">
+
+                <TableRow
+                    android:id="@+id/table_runs1"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:paddingLeft="8.0dip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textColor="@color/colorTextPrimary"
+                            android:gravity="left"
+                            android:layout_gravity="left"
+                            android:id="@+id/player_run1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Players"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textColor="@color/colorTextPrimary"
+                        android:gravity="center"
+                        android:id="@+id/inn_run1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:ems="5" />
+
+                    <TextView
+                        android:textColor="@color/colorTextPrimary"
+                        android:gravity="center"
+                        android:id="@+id/no_run1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:ems="5" />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/colorTextSecondaryTransparent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.4dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip">
+
+                <TableRow
+                    android:id="@+id/table_runs2"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:paddingLeft="8.0dip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textColor="@color/colorTextPrimary"
+                            android:gravity="left"
+                            android:layout_gravity="left"
+                            android:id="@+id/player_run2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Players"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textColor="@color/colorTextPrimary"
+                        android:gravity="center"
+                        android:id="@+id/inn_run2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:ems="5" />
+
+                    <TextView
+                        android:textColor="@color/colorTextPrimary"
+                        android:gravity="center"
+                        android:id="@+id/no_run2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:ems="5" />
+
+                </TableRow>
+            </LinearLayout>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4.0dp"
+            card_view:cardElevation="10.0dp"
+            card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:background="#70408c"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_320dp_lines"
+                        android:gravity="center_horizontal"
+                        android:text="Most Wickets" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip">
+
+                <TableRow
+                    android:id="@+id/psts_table4"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:paddingLeft="8.0dip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+
+                        <TextView
+                            android:gravity="left"
+                            android:layout_gravity="left"
+                            android:id="@+id/txt_player3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Player"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/txt_inn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="Innings"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:ems="5" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/txt_no3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="Wickets"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:ems="5" />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/colorTextSecondaryTransparent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip">
+
+                <TableRow
+                    android:id="@+id/table_wi1"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:paddingLeft="8.0dip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:gravity="left"
+                            android:layout_gravity="left"
+                            android:id="@+id/player_wi1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Players"
+                            android:textColor="@color/colorWhite"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/inn_wi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:textColor="@color/colorWhite"
+                        android:ems="5" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center"
+                        android:id="@+id/no_wi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:ems="5" />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/colorTextSecondaryTransparent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.4dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip">
+
+                <TableRow
+                    android:id="@+id/table_wi2"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:paddingLeft="8.0dip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textColor="@color/colorWhite"
+                            android:gravity="left"
+                            android:layout_gravity="left"
+                            android:id="@+id/player_wi2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Players"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center"
+                        android:id="@+id/inn_wi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:ems="5" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center"
+                        android:id="@+id/no_wi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:ems="5" />
+
+                </TableRow>
+            </LinearLayout>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="4.0dp"
+                card_view:cardElevation="10.0dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:background="#C5CAE9"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/title3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/text_320dp_lines"
+                                android:gravity="center_horizontal"
+                                android:text="Most Sixes" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8.0dip">
+
+                        <TableRow
+                            android:id="@+id/psts_table3"
+                            android:layout_marginTop="1dp"
+                            android:orientation="vertical"
+                            android:padding="8.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:gravity="left"
+                                android:paddingLeft="8.0dip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+
+                                <TextView
+                                    android:textColor="@color/colorTextPrimary"
+                                    android:gravity="left"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/txt_player2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Player"
+                                    android:textStyle="bold"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/txt_inn2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="Innings"
+                                android:textStyle="bold"
+                                android:ems="5" />
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/txt_no2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="Sixes"
+                                android:textStyle="bold"
+                                android:ems="5" />
+
+                        </TableRow>
+
+                        <View
+                            android:background="@color/colorTextSecondaryTransparent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.8dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8.0dip">
+
+                        <TableRow
+                            android:id="@+id/table_six1"
+                            android:layout_marginTop="1dp"
+                            android:orientation="vertical"
+                            android:padding="8.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:gravity="left"
+                                android:paddingLeft="8.0dip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:textColor="@color/colorTextPrimary"
+                                    android:gravity="left"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/player_six1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Players"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/inn_six1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/no_six1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                        </TableRow>
+
+                        <View
+                            android:background="@color/colorTextSecondaryTransparent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.4dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8.0dip">
+
+                        <TableRow
+                            android:id="@+id/table_six2"
+                            android:layout_marginTop="1dp"
+                            android:orientation="vertical"
+                            android:padding="8.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:gravity="left"
+                                android:paddingLeft="8.0dip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:textColor="@color/colorTextPrimary"
+                                    android:gravity="left"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/player_six2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Players"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/inn_six2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/no_six2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                        </TableRow>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="4.0dp"
+                card_view:cardElevation="10.0dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:background="#C5CAE9"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/title5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/text_320dp_lines"
+                                android:gravity="center_horizontal"
+                                android:text="Most Fours" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8.0dip">
+
+                        <TableRow
+                            android:id="@+id/psts_table5"
+                            android:layout_marginTop="1dp"
+                            android:orientation="vertical"
+                            android:padding="8.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:gravity="left"
+                                android:paddingLeft="8.0dip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+
+                                <TextView
+                                    android:textColor="@color/colorTextPrimary"
+                                    android:gravity="left"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/txt_player4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Player"
+                                    android:textStyle="bold"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/txt_inn4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="Innings"
+                                android:textStyle="bold"
+                                android:ems="5" />
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/txt_no4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="Fours"
+                                android:textStyle="bold"
+                                android:ems="5" />
+
+                        </TableRow>
+
+                        <View
+                            android:background="@color/colorTextSecondaryTransparent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.8dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8.0dip">
+
+                        <TableRow
+                            android:id="@+id/table_four1"
+                            android:layout_marginTop="1dp"
+                            android:orientation="vertical"
+                            android:padding="8.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:gravity="left"
+                                android:paddingLeft="8.0dip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:textColor="@color/colorTextPrimary"
+                                    android:gravity="left"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/player_four1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Players"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/inn_four1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/no_four1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                        </TableRow>
+
+                        <View
+                            android:background="@color/colorTextSecondaryTransparent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.4dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8.0dip">
+
+                        <TableRow
+                            android:id="@+id/table_four2"
+                            android:layout_marginTop="1dp"
+                            android:orientation="vertical"
+                            android:padding="8.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:gravity="left"
+                                android:paddingLeft="8.0dip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:textColor="@color/colorTextPrimary"
+                                    android:gravity="left"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/player_four2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Players"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/inn_four2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/no_four2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="4.0dp"
+                card_view:cardElevation="10.0dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:background="#C5CAE9"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/title1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/text_320dp_lines"
+                                android:gravity="center_horizontal"
+                                android:text="High Score" />
+                        </TableRow>
+                    </TableLayout>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8.0dip">
+
+                        <TableRow
+                            android:id="@+id/psts_table"
+                            android:layout_marginTop="1dp"
+                            android:orientation="vertical"
+                            android:padding="8.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:gravity="left"
+                                android:paddingLeft="8.0dip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+
+                                <TextView
+                                    android:textColor="@color/colorTextPrimary"
+                                    android:gravity="left"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/txt_player"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Player"
+                                    android:textStyle="bold"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/txt_inn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="Innings"
+                                android:textStyle="bold"
+                                android:ems="5" />
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/txt_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="Runs"
+                                android:textStyle="bold"
+                                android:ems="5" />
+
+                        </TableRow>
+
+                        <View
+                            android:background="@color/colorTextSecondaryTransparent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.8dip" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8.0dip">
+
+                        <TableRow
+                            android:id="@+id/table1"
+                            android:layout_marginTop="1dp"
+                            android:orientation="vertical"
+                            android:padding="8.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:gravity="left"
+                                android:paddingLeft="8.0dip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:textColor="@color/colorTextPrimary"
+                                    android:gravity="left"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/player1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Players"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/inn1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/no1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                        </TableRow>
+
+                        <View
+                            android:background="@color/colorTextSecondaryTransparent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.4dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8.0dip">
+
+                        <TableRow
+                            android:id="@+id/table2"
+                            android:layout_marginTop="1dp"
+                            android:orientation="vertical"
+                            android:padding="8.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:gravity="left"
+                                android:paddingLeft="8.0dip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:textColor="@color/colorTextPrimary"
+                                    android:gravity="left"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/player2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Players"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/inn2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                            <TextView
+                                android:textColor="@color/colorTextPrimary"
+                                android:gravity="center"
+                                android:id="@+id/no2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="0"
+                                android:ems="5" />
+
+                        </TableRow>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+   </LinearLayout>
+   </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8F9"
+    tools:context="com.krazynutz.iplt20info.activites.New_Dash">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    <FrameLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="8.0dp"
+                card_view:cardElevation="8.0dp"
+                card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+               <Button
+                   android:text="Teams"
+                   android:textStyle="bold"
+                   android:textSize="@dimen/text_320dp_lines"
+                   android:textColor="@color/colorWhite"
+                   android:background="#0288D1"
+                   android:id="@+id/button_one"
+                   android:paddingLeft="16.0dip"
+                   android:paddingTop="24.0dip"
+                   android:paddingRight="16.0dip"
+                   android:paddingBottom="24.0dip"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" />
+             </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="8.0dp"
+                card_view:cardElevation="8.0dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <Button
+                        android:text="Match Schedules"
+                        android:textSize="@dimen/text_320dp_lines"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorWhite"
+                        android:background="#039BE5"
+                        android:id="@+id/button_two"
+                        android:paddingLeft="16.0dip"
+                        android:paddingTop="24.0dip"
+                        android:paddingRight="16.0dip"
+                        android:paddingBottom="24.0dip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="8.0dp"
+                card_view:cardElevation="8.0dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <Button
+                        android:text="Stadiums"
+                        android:textSize="@dimen/text_320dp_lines"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorWhite"
+                        android:background="#03A9F4"
+                        android:id="@+id/button_thre"
+                        android:paddingLeft="16.0dip"
+                        android:paddingTop="24.0dip"
+                        android:paddingRight="16.0dip"
+                        android:paddingBottom="24.0dip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="8.0dp"
+                    card_view:cardElevation="8.0dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <Button
+                            android:text="Match Results"
+                            android:textSize="@dimen/text_320dp_lines"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorWhite"
+                            android:background="#29B6F6"
+                            android:id="@+id/button_four"
+                            android:paddingLeft="16.0dip"
+                            android:paddingTop="24.0dip"
+                            android:paddingRight="16.0dip"
+                            android:paddingBottom="24.0dip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="8.0dp"
+                    card_view:cardElevation="8.0dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <Button
+                            android:text="Points Table"
+                            android:textSize="@dimen/text_320dp_lines"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorWhite"
+                            android:background="#4FC3F7"
+                            android:id="@+id/button_five"
+                            android:paddingLeft="16.0dip"
+                            android:paddingTop="24.0dip"
+                            android:paddingRight="16.0dip"
+                            android:paddingBottom="24.0dip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="8.0dp"
+                    card_view:cardElevation="8.0dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <Button
+                            android:text="Stats"
+                            android:textSize="@dimen/text_320dp_lines"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorWhite"
+                            android:background="#81D4FA"
+                            android:id="@+id/button_six"
+                            android:paddingLeft="16.0dip"
+                            android:paddingTop="24.0dip"
+                            android:paddingRight="16.0dip"
+                            android:paddingBottom="24.0dip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <io.github.yavski.fabspeeddial.FabSpeedDial
+            android:id="@+id/fab_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:touchGuardDrawable="@drawable/background"
+            app:fabGravity="bottom_end"
+            app:fabMenu="@menu/main_fab"
+            android:layout_margin="26dp"
+            app:fabBackgroundTint="#01579B"
+            app:miniFabBackgroundTint="@android:color/white"
+            app:miniFabDrawableTint="?attr/colorPrimaryDark"
+            app:miniFabTitleTextColor="?attr/colorPrimaryDark" />
+    </FrameLayout>
+
+
+
+</RelativeLayout>

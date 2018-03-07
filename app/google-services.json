@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "130875980783",
+    "firebase_url": "https://ipl-info-a57e5.firebaseio.com",
+    "project_id": "ipl-info-a57e5",
+    "storage_bucket": "ipl-info-a57e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130875980783:android:a4716db361ce239e",
+        "android_client_info": {
+          "package_name": "com.krazynutz.iplt20info"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130875980783-u9ulvicin0qr8gbgvf25u7d98iuocadm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krazynutz.iplt20info",
+            "certificate_hash": "4c9f83e6ad4576ec1b0979b4a6b13e4b38220e10"
+          }
+        },
+        {
+          "client_id": "130875980783-rvn8ndmrmd6jrejuldp1tiqhbu1fc730.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqZ4gg4DLq5JMQog4Oi95hAxV2VswVzC4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130875980783-rvn8ndmrmd6jrejuldp1tiqhbu1fc730.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

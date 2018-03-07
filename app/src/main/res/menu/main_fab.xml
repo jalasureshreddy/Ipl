@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_rate"
+        android:icon="@mipmap/ic_grade_black_48dp"
+        android:title="Rate Us"/>
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@mipmap/ic_share_black_48dp"
+        android:title="Share"/>
+
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@mipmap/ic_feedback_black_48dp"
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/nav_play"
+        android:icon="@mipmap/ic_shop_black_48dp"
+        android:title="More apps" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@mipmap/ic_info_black_48dp"
+        android:title="About Us" />
+</menu>

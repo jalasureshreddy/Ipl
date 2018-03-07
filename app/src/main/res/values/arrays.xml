@@ -6,6 +6,9 @@
         <item>Teams</item>
         <item>Match Schedules</item>
         <item>Stadiums</item>
+        <item>Match Results</item>
+        <item>Points Table</item>
+        <item>Stats</item>
     </string-array>
 
     <string-array name="matches_date">
@@ -95,8 +98,8 @@
         <item>Sunrisers Hyderabad vs Delhi Daredevils</item>
         <item>Kings XI Punjab vs Mumbai Indians</item>
         <item>Kolkata Knight Riders vs Gujarat Lions</item>
-        <item>Delhi Daredevils vs Mumbai Indians</item>
-        <item>Rising Pune vs Sunrisers Hyderabad</item>
+        <item>Rising Pune Supergiants vs Sunrisers Hyderabad</item>
+        <item>Mumbai Indians vs Delhi Daredevils</item>
         <item>Gujarat Lions vs Kings XI Punjab</item>
         <item>Kolkata Knight Riders vs Royal Challengers Bangalore</item>
         <item>Mumbai Indians vs Rising Pune Supergiants</item>
@@ -128,12 +131,138 @@
         <item>Kolkata Knight Riders vs Mumbai Indians</item>
         <item>Rising Pune Supergiants vs Kings XI Punjab</item>
         <item>Delhi Daredevils vs Royal Challengers Bangalore</item>
-        <item>Qualifier 1 TBC vs TBC</item>
-        <item>Eliminator TBC vs TBC</item>
+        <item>Qualifier 1</item>
+        <item>Eliminator</item>
         <item>Qualifier 2</item>
         <item>Final</item>
     </string-array>
-    
+
+    <string-array name="srt_name1">
+        <item>SRH</item>
+        <item>RPS</item>
+        <item>GL</item>
+        <item>KXIP</item>
+        <item>RCB</item>
+        <item>SRH</item>
+        <item>MI</item>
+        <item>KXIP</item>
+        <item>RPS</item>
+        <item>MI</item>
+        <item>KKR</item>
+        <item>RCB</item>
+        <item>GL</item>
+        <item>KKR</item>
+        <item>DD</item>
+        <item>MI</item>
+        <item>RCB</item>
+        <item>DD</item>
+        <item>SRH</item>
+        <item>GL</item>
+        <item>SRH</item>
+        <item>KXIP</item>
+        <item>KKR</item>
+        <item>RPS</item>
+        <item>MI</item>
+        <item>GL</item>
+        <item>KKR</item>
+        <item>MI</item>
+        <item>RCB</item>
+        <item>RPS</item>
+        <item>RCB</item>
+        <item>KKR</item>
+        <item>KXIP</item>
+        <item>RPS</item>
+        <item>GL</item>
+        <item>KXIP</item>
+        <item>SRH</item>
+        <item>MI</item>
+        <item>RPS</item>
+        <item>DD</item>
+        <item>KKR</item>
+        <item>DD</item>
+        <item>RCB</item>
+        <item>SRH</item>
+        <item>MI</item>
+        <item>RCB</item>
+        <item>KXIP</item>
+        <item>SRH</item>
+        <item>KXIP</item>
+        <item>GL</item>
+        <item>MI</item>
+        <item>DD</item>
+        <item>GL</item>
+        <item>KKR</item>
+        <item>RPS</item>
+        <item>DD</item>
+        <item>TBC</item>
+        <item>TBC</item>
+        <item>TBC</item>
+        <item>TBC</item>
+    </string-array>
+
+    <string-array name="srt_name2">
+        <item>RCB</item>
+        <item>MI</item>
+        <item>KKR</item>
+        <item>RPS</item>
+        <item>DD</item>
+        <item>GL</item>
+        <item>KKR</item>
+        <item>RCB</item>
+        <item>DD</item>
+        <item>SRH</item>
+        <item>KXIP</item>
+        <item>MI</item>
+        <item>RPS</item>
+        <item>SRH</item>
+        <item>KXIP</item>
+        <item>GL</item>
+        <item>RPS</item>
+        <item>KKR</item>
+        <item>KXIP</item>
+        <item>RCB</item>
+        <item>DD</item>
+        <item>MI</item>
+        <item>GL</item>
+        <item>SRH</item>
+        <item>DD</item>
+        <item>KXIP</item>
+        <item>RCB</item>
+        <item>RPS</item>
+        <item>SRH</item>
+        <item>KKR</item>
+        <item>GL</item>
+        <item>DD</item>
+        <item>SRH</item>
+        <item>RCB</item>
+        <item>MI</item>
+        <item>DD</item>
+        <item>KKR</item>
+        <item>RCB</item>
+        <item>GL</item>
+        <item>SRH</item>
+        <item>RPS</item>
+        <item>GL</item>
+        <item>KXIP</item>
+        <item>RPS</item>
+        <item>DD</item>
+        <item>KKR</item>
+        <item>GL</item>
+        <item>MI</item>
+        <item>KKR</item>
+        <item>DD</item>
+        <item>KXIP</item>
+        <item>RPS</item>
+        <item>SRH</item>
+        <item>MI</item>
+        <item>KXIP</item>
+        <item>RCB</item>
+        <item>TBC</item>
+        <item>TBC</item>
+        <item>TBC</item>
+        <item>TBC</item>
+    </string-array>
+
     <string-array name="match_venue">
         <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
         <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
@@ -158,8 +287,8 @@
         <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
         <item>Holkar Cricket Stadium, Indore</item>
         <item>Eden Gardens, Kolkata</item>
-        <item>Feroz Shah Kotla Ground, Delhi</item>
         <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
+        <item>Wankhede Stadium, Mumbai</item>
         <item>Saurashtra Cricket Association Stadium, Rajkot</item>
         <item>Eden Gardens, Kolkata</item>
         <item>Wankhede Stadium, Mumbai</item>
@@ -179,7 +308,7 @@
         <item>Feroz Shah Kotla Ground, Delhi</item>
         <item>M. Chinnaswamy Stadium, Bengaluru</item>
         <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
-        <item>Wankhede Stadium, Mumbai</item>
+        <item>Feroz Shah Kotla Ground, Delhi</item>
         <item>M. Chinnaswamy Stadium, Bengaluru</item>
         <item>IS Bindra Stadium, Mohali</item>
         <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
@@ -304,4 +433,727 @@
         <item>Tue, 16-May 2017, 8:00 PM "\n" Qualifier 1 TBC vs TBC</item>
         <item>Wed, 17-May 2017, 8:00 PM "\n" Eliminator TBC vs TBC</item>
     </string-array>
+
+
+    <string-array name="teams">
+        <item>Sunrisers Hyderabad</item>
+        <item>Mumbai Indians</item>
+        <item>Royal Challengers</item>
+        <item>Rising Pune</item>
+        <item>Gujarat Lions</item>
+        <item>Delhi Daredevils</item>
+        <item>Kings XI Punjab</item>
+        <item>Knight Riders</item>
+    </string-array>
+
+
+    <string-array name="srhplayers">
+        <item>David Warner (C) "\u2708"</item>
+        <item></item>
+        <item>BATSMEN</item>
+        <item>Shikhar Dhawan</item>
+        <item>Kane Williamson "\u2708"</item>
+        <item>Ricky Bhui</item>
+        <item>Tanmay Agarwal</item>
+        <item></item>
+        <item>ALLROUNDERS</item>
+        <item>Yuvraj Singh</item>
+        <item>Moises Henriques "\u2708"</item>
+        <item>Bipul Sharma</item>
+        <item>Ben Cutting "\u2708"</item>
+        <item>Deepak Hooda</item>
+        <item>Vijay Shankar</item>
+        <item>Mohammad Nabi "\u2708"</item>
+        <item>Chris Jordan "\u2708"</item>
+        <item></item>
+        <item>BOWLERS</item>
+        <item>Mustafizur Rahman "\u2708"</item>
+        <item>Rashid Khan "\u2708"</item>
+        <item>Bhuvneshwar Kumar</item>
+        <item>Ashish Nehra</item>
+        <item>Abhimanyu Mithun</item>
+        <item>Barinder Sran</item>
+        <item>Siddarth Kaul</item>
+        <item>Ben Laughlin "\u2708"</item>
+        <item>Mohammed Siraj</item>
+        <item>Pravin Tambe</item>
+        <item></item>
+        <item>WICKETKEEPERS</item>
+        <item>Naman Ojha</item>
+        <item>Ekalavya Dwivedi "\u2708"</item>
+    </string-array>
+
+    <string-array name="miplayers">
+        <item>Rohit Sharma (C)</item>
+        <item></item>
+        <item>BATSMEN</item>
+        <item>Ambati Rayudu</item>
+        <item>Lendl Simmons "\u2708"</item>
+        <item>Siddhesh Lad</item>
+        <item>Jithesh Sharma</item>
+        <item>Saurabh Tiwary</item>
+        <item>A Gunarathna "\u2708"</item>
+        <item></item>
+        <item>ALLROUNDERS</item>
+        <item>Kieron Pollard "\u2708"</item>
+        <item>Harbhajan Singh</item>
+        <item>Shreyas Gopal</item>
+        <item>Nitish Rana</item>
+        <item>J Suchith</item>
+        <item>Hardik Pandya</item>
+        <item>Krunal Pandya</item>
+        <item>Deepak Punia</item>
+        <item>K Gowtham</item>
+        <item></item>
+        <item>BOWLERS</item>
+        <item>Lasith Malinga "\u2708"</item>
+        <item>Jasprit Bumrah</item>
+        <item>Vinay Kumar</item>
+        <item>Mitchell McClenaghan "\u2708"</item>
+        <item>Tim Southee "\u2708"</item>
+        <item>Mitchell Johnson "\u2708"</item>
+        <item>Karn Sharma</item>
+        <item>K Khejroliya</item>
+        <item></item>
+        <item>WICKETKEEPERS</item>
+        <item>Parthiv Patel</item>
+        <item>Jos Buttler "\u2708"</item>
+        <item>Nicholas Pooran "\u2708"</item>
+    </string-array>
+
+    <string-array name="rcbplayers">
+        <item>Virat Kohli (C)</item>
+        <item></item>
+        <item>BATSMEN</item>
+        <item>AB de Villiers "\u2708"</item>
+        <item>Chris Gayle "\u2708"</item>
+        <item>Travis Head "\u2708"</item>
+        <item>Mandeep Singh</item>
+        <item>Sachin Baby</item>
+        <item>Sarfaraz Khan</item>
+        <item>Kedar Jadhav</item>
+        <item></item>
+        <item>ALLROUNDERS</item>
+        <item>Shane Watson "\u2708"</item>
+        <item>Stuart Binny</item>
+        <item>Pawan Negi</item>
+        <item>Praveen Dubey</item>
+        <item></item>
+        <item>BOWLERS</item>
+        <item>Yuzvendra Chahal</item>
+        <item>Harshal Patel</item>
+        <item>Adam Milne "\u2708"</item>
+        <item>S Aravind</item>
+        <item>Samuel Badree "\u2708"</item>
+        <item>Iqbal Abdulla</item>
+        <item>Avesh Khan</item>
+        <item>Tabraiz Shamsi "\u2708"</item>
+        <item>Tymal Mills "\u2708"</item>
+        <item>Aniket Choudhary</item>
+        <item>Billy Stanlake "\u2708"</item>
+        <item></item>
+        <item>WICKETKEEPER</item>
+        <item>KL Rahul</item>
+
+    </string-array>
+
+    <string-array name="rpsplayers">
+        <item>Steven Smith (C) "\u2708"</item>
+        <item></item>
+        <item>BATSMEN</item>
+        <item>Ajinkya Rahane</item>
+        <item>Faf du Plessis "\u2708"</item>
+        <item>Ankush Bains</item>
+        <item>Baba Aparajith</item>
+        <item>Usman Khawaja "\u2708"</item>
+        <item>Mayank Agarwal</item>
+        <item>Manoj Tiwary</item>
+        <item></item>
+        <item>ALLROUNDERS</item>
+        <item>Ben Stokes "\u2708"</item>
+        <item>Dan Christian "\u2708"</item>
+        <item>R Ashwin</item>
+        <item>Mitchell Marsh "\u2708"</item>
+        <item>Rajat Bhatia</item>
+        <item>Milind Tandon</item>
+        <item>R Tripathi</item>
+        <item></item>
+        <item>BOWLERS</item>
+        <item>Ashok Dinda</item>
+        <item>Ankit Sharma</item>
+        <item>Ishwar Pandey</item>
+        <item>Adam Zampa "\u2708"</item>
+        <item>Jaskaran Singh</item>
+        <item>Deepak Chahar</item>
+        <item>Jaydev Unadkat</item>
+        <item>Rahul Chahar</item>
+        <item>Saurabh Kumar</item>
+        <item>Lockie Ferguson "\u2708"</item>
+        <item></item>
+        <item>WICKETKEEPER</item>
+        <item>MS Dhoni</item>
+    </string-array>
+
+    <string-array name="glplayers">
+        <item>Suresh Raina (C)</item>
+        <item></item>
+        <item>BATSMEN</item>
+        <item>Brendon McCullum "\u2708"</item>
+        <item>Aaron Finch "\u2708"</item>
+        <item>Dwayne Smith "\u2708"</item>
+        <item>Ishan Kishan</item>
+        <item>Jaydev Shah</item>
+        <item>Jason Roy "\u2708"</item>
+        <item>Chirag Suri</item>
+        <item></item>
+        <item>ALLROUNDERS</item>
+        <item>Ravindra Jadeja</item>
+        <item>James Faulkner "\u2708"</item>
+        <item>Dwayne Bravo "\u2708"</item>
+        <item>Shubham Agrawal</item>
+        <item>Pratham Singh</item>
+        <item>Aksh Deep Nath</item>
+        <item></item>
+        <item>BOWLERS</item>
+        <item>Dhawal Kulkarni</item>
+        <item>Praveen Kumar</item>
+        <item>Andrew Tye "\u2708"</item>
+        <item>Pradeep Sangwan</item>
+        <item>Shivil Kaushik</item>
+        <item>Shadab Jakati</item>
+        <item>Nathu Singh</item>
+        <item>Basil Thampy</item>
+        <item>Tejas Singh Baroka</item>
+        <item>Manpreet Gony</item>
+        <item>Munaf Patel</item>
+        <item>Shelly Shaurya</item>
+        <item></item>
+        <item>WICKETKEEPER</item>
+        <item>Dinesh Karthik</item>
+
+    </string-array>
+
+    <string-array name="ddplayers">
+        <item>Zaheer Khan (C)</item>
+        <item></item>
+        <item>BATSMEN</item>
+        <item>JP Duminy "\u2708"</item>
+        <item>Shreyas Iyer</item>
+        <item>Sam Billings "\u2708"</item>
+        <item>Karun Nair</item>
+        <item>Sanju Samson</item>
+        <item>Rishabh Pant</item>
+        <item>Ankit Bawne</item>
+        <item>Aditya Tare</item>
+        <item></item>
+        <item>ALLROUNDERS</item>
+        <item>Chris Morris "\u2708"</item>
+        <item>Carlos Brathwaite "\u2708"</item>
+        <item>Angelo Mathews "\u2708"</item>
+        <item>Corey Anderson "\u2708"</item>
+        <item>Shashank Singh</item>
+        <item></item>
+        <item>BOWLERS</item>
+        <item>Mohammed Shami</item>
+        <item>Shahbaz Nadeem</item>
+        <item>Jayant Yadav</item>
+        <item>Amit Mishra</item>
+        <item>CV Milind</item>
+        <item>Syed Ahmed</item>
+        <item>Pratyush Singh</item>
+        <item>Kagiso Rabada "\u2708"</item>
+        <item>Pat Cummins "\u2708"</item>
+        <item>Murugan Ashwin</item>
+        <item>Navdeep Saini</item>
+        <item></item>
+        <item>WICKETKEEPER</item>
+        <item>Quinton de Kock "\u2708"</item>
+
+    </string-array>
+
+    <string-array name="kixpplayers">
+        <item>M Vijay (C)</item>
+        <item></item>
+        <item>BATSMEN</item>
+        <item>David Miller "\u2708"</item>
+        <item>Manan Vohra</item>
+        <item>Glenn Maxwell "\u2708"</item>
+        <item>Gurkeerat Singh</item>
+        <item>Shaun Marsh "\u2708"</item>
+        <item>Hashim Amla "\u2708"</item>
+        <item>Armaan Jaffer</item>
+        <item>Eoin Morgan "\u2708"</item>
+        <item>Martin Guptill "\u2708"</item>
+        <item>Rinku Singh</item>
+        <item>Nikhil Naik</item>
+        <item></item>
+        <item>ALLROUNDERS</item>
+        <item>Marcus Stoinis "\u2708"</item>
+        <item>Axar Patel</item>
+        <item>Darren Sammy "\u2708"</item>
+        <item>Pardeep Sahu</item>
+        <item>Swapnil Singh</item>
+        <item>Rahul Tewatia</item>
+        <item></item>
+        <item>BOWLERS</item>
+        <item>Anureet Singh</item>
+        <item>Sandeep Sharma</item>
+        <item>Shardul Thakur</item>
+        <item>Mohit Sharma</item>
+        <item>KC Cariappa</item>
+        <item>T Natarajan</item>
+        <item>Matt Henry "\u2708"</item>
+        <item>Varun Aaron</item>
+        <item></item>
+        <item>WICKETKEEPER</item>
+        <item>Wriddhiman Saha</item>
+    </string-array>
+
+    <string-array name="kkrplayers">
+        <item>Gautam Gambhir (C)</item>
+        <item></item>
+        <item>BATSMEN</item>
+        <item>Manish Pandey</item>
+        <item>Suryakumar Yadav</item>
+        <item>Chris Lynn "\u2708"</item>
+        <item>Sheldon Jackson</item>
+        <item>Ishank Jaggi</item>
+        <item>Darren Bravo "\u2708"</item>
+        <item></item>
+        <item>ALLROUNDERS</item>
+        <item>Shakib Al Hasan "\u2708"</item>
+        <item>Yusuf Pathan</item>
+        <item>Chris Woakes "\u2708"</item>
+        <item>Rishi Dhawan</item>
+        <item>Rovman Powell "\u2708"</item>
+        <item>R Sanjay Yadav</item>
+        <item></item>
+        <item>BOWLERS</item>
+        <item>Sunil Narine "\u2708"</item>
+        <item>Kuldeep Yadav</item>
+        <item>Piyush Chawla</item>
+        <item>Umesh Yadav</item>
+        <item>Ankit Singh Rajput</item>
+        <item>Trent Boult "\u2708"</item>
+        <item>Nathan Coulter-Nile "\u2708"</item>
+        <item>Sayan Ghosh</item>
+        <item></item>
+        <item>WICKETKEEPER</item>
+        <item>Robin Uthappa</item>
+
+    </string-array>
+
+    <string-array name="players_matches">
+        <item>Players</item>
+        <item>Matches</item>
+    </string-array>
+
+
+    <string-array name="srh_date">
+        <item>Wed, 05-Apr 2017, 8:00 PM</item>
+        <item>Sun, 09-Apr 2017, 4:00 PM</item>
+        <item>Wed, 12-Apr 2017, 8:00 PM</item>
+        <item>Sat, 15-Apr 2017, 4:00 PM</item>
+        <item>Mon, 17-Apr 2017, 8:00 PM</item>
+        <item>Wed, 19-Apr 2017, 4:00 PM</item>
+        <item>Sat, 22-Apr 2017, 8:00 PM</item>
+        <item>Tue, 25-Apr 2017, 8:00 PM</item>
+        <item>Fri, 28-Apr 2017, 8:00 PM</item>
+        <item>Sun, 30-Apr 2017, 8:00 PM</item>
+        <item>Tue, 02-May 2017, 8:00 PM</item>
+        <item>Sat, 06-May 2017, 4:00 PM</item>
+        <item>Mon, 08-May 2017, 8:00 PM</item>
+        <item>Sat, 13-May 2017, 4:00 PM</item>
+    </string-array>
+    <string-array name="srh_match_play">
+        <item>Sunrisers Hyderabad vs Royal Challengers Bangalore</item>
+        <item>Sunrisers Hyderabad vs Gujarat Lions</item>
+        <item>Mumbai Indian vs Sunrisers Hyderabad</item>
+        <item>Kolkata Knight Riders vs Sunrisers Hyderabad</item>
+        <item>Sunrisers Hyderabad vs Kings XI Punjab</item>
+        <item>Sunrisers Hyderabad vs Delhi Daredevils</item>
+        <item>Rising Pune Supergiants vs Sunrisers Hyderabad</item>
+        <item>Royal Challengers Bangalore vs Sunrisers Hyderabad</item>
+        <item>Kings XI Punjab vs Sunrisers Hyderabad</item>
+        <item>Sunrisers Hyderabad vs Kolkata Knight Riders</item>
+        <item>Delhi Daredevils vs Sunrisers Hyderabad</item>
+        <item>Sunrisers Hyderabad vs Rising Pune Supergiants</item>
+        <item>Sunrisers Hyderabad vs Mumbai Indians</item>
+        <item>Gujarat Lions vs Sunrisers Hyderabad</item>
+    </string-array>
+    <string-array name="srh_match_venue">
+        <item>Hyderabad</item>
+        <item>Hyderabad</item>
+        <item>Mumbai</item>
+        <item>Kolkata</item>
+        <item>Hyderabad</item>
+        <item>Hyderabad</item>
+        <item>Pune</item>
+        <item>Bengaluru</item>
+        <item>Mohali</item>
+        <item>Hyderabad</item>
+        <item>Delhi</item>
+        <item>Hyderabad</item>
+        <item>Hyderabad</item>
+        <item>Kanpur</item>
+    </string-array>
+
+
+    <string-array name="mi_date">
+        <item>Thr, 06-Apr 2017, 8:00 PM</item>
+        <item>Sun, 09-Apr 2017, 8:00 PM</item>
+        <item>Wed, 12-Apr 2017, 8:00 PM</item>
+        <item>Fri, 14-Apr 2017, 4:00 PM</item>
+        <item>Sun, 16-Apr 2017, 4:00 PM</item>
+        <item>Thr, 20-Apr 2017, 8:00 PM</item>
+        <item>Sat, 22-Apr 2017, 4:00 PM</item>
+        <item>Mon, 24-Apr 2017, 8:00 PM</item>
+        <item>Sat, 29-Apr 2017, 8:00 PM</item>
+        <item>Mon, 01-May 2017, 4:00 PM</item>
+        <item>Sat, 06-May 2017, 8:00 PM</item>
+        <item>Mon, 08-May 2017, 8:00 PM</item>
+        <item>Thr, 11-May 2017, 8:00 PM</item>
+        <item>Sat, 13-May 2017, 8:00 PM</item>
+    </string-array>
+    <string-array name="mi_match_play">
+        <item>Rising Pune Supergiants v Mumbai Indians</item>
+        <item>Mumbai Indians vs Kolkata Knight Riders</item>
+        <item>Mumbai Indian vs Sunrisers Hyderabad</item>
+        <item>Royal Challengers Bangalore vs Mumbai Indians</item>
+        <item>Mumbai Indians vs Gujarat Lions</item>
+        <item>Kings XI Punjab vs Mumbai Indians</item>
+        <item>Delhi Daredevils vs Mumbai Indians</item>
+        <item>Mumbai Indians vs Rising Pune Supergiants</item>
+        <item>Gujarat Lions vs Mumbai Indians</item>
+        <item>Mumbai Indians Vs Royal Challengers Bangalore</item>
+        <item>Mumbai Indians Vs Delhi Daredevils</item>
+        <item>Sunrisers Hyderabad Vs Mumbai Indians</item>
+        <item>Mumbai Indians vs Kings XI Punjab</item>
+        <item>Kolkata Knight Riders vs Mumbai Indians</item>
+    </string-array>
+    <string-array name="mi_match_venue">
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Mumbai</item>
+        <item>Bengaluru</item>
+        <item>Mumbai</item>
+        <item>Indore</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Rajkot</item>
+        <item>Mumbai</item>
+        <item>Mumbai</item>
+        <item>Hyderabad</item>
+        <item>Mumbai</item>
+        <item>Kolkata</item>
+    </string-array>
+    <string-array name="rcb_date">
+        <item>Wed, 05-Apr 2017, 8:00 PM</item>
+        <item>Sat, 08-Apr 2017, 8:00 PM</item>
+        <item>Mon, 10-Apr 2017, 4:00 PM</item>
+        <item>Fri, 14-Apr 2017, 4:00 PM</item>
+        <item>Sun, 16-Apr 2017, 8:00 PM</item>
+        <item>Tue, 18-Apr 2017, 8:00 PM</item>
+        <item>Sun, 23-Apr 2017, 8:00 PM</item>
+        <item>Tue, 25-Apr 2017, 8:00 PM</item>
+        <item>Thr, 27-Apr 2017, 8:00 PM</item>
+        <item>Sat, 29-Apr 2017, 4:00 PM</item>
+        <item>Mon, 01-May 2017, 4:00 PM</item>
+        <item>Fri, 05-May 2017, 8:00 PM</item>
+        <item>Sun, 07-May 2017, 4:00 PM</item>
+        <item>Sun, 14-May 2017, 8:00 PM</item>
+    </string-array>
+    <string-array name="rcb_match_play">
+        <item>Sunrisers Hyderabad v Royal Challengers Bangalore</item>
+        <item>Royal Challengers Bangalore v Delhi Daredevils</item>
+        <item>Kings XI Punjab vs Royal Challengers Bangalore</item>
+        <item>Royal Challengers Bangalore vs Mumbai Indians</item>
+        <item>Royal Challengers Bangalore Vs Rising Pune Supergiants</item>
+        <item>Gujarat Lions vs Royal Challengers Bangalore</item>
+        <item>Kolkata Knight Riders Vs Royal Challengers Bangalore</item>
+        <item>Royal Challengers Bangalore vs Sunrisers Hyderabad</item>
+        <item>Royal Challengers Bangalore vs Gujarat Lions</item>
+        <item>Rising Pune Supergiants vs Royal Challengers Bangalore</item>
+        <item>Mumbai Indians Vs Royal Challengers Bangalore</item>
+        <item>Royal Challengers Bangalore vs Kings XI Punjab</item>
+        <item>Royal Challengers Bangalore vs Kolkata Knight Riders</item>
+        <item>Delhi Daredevils vs Royal Challengers Bangalore</item>
+    </string-array>
+    <string-array name="rcb_match_venue">
+        <item>Hyderabad</item>
+        <item>Bengaluru</item>
+        <item>Indore</item>
+        <item>Bengaluru</item>
+        <item>Bengaluru</item>
+        <item>Rajkot</item>
+        <item>Kolkata</item>
+        <item>Bengaluru</item>
+        <item>Bengaluru</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Bengaluru</item>
+        <item>Bengaluru</item>
+        <item>Delhi</item>
+    </string-array>
+
+    <string-array name="rps_date">
+        <item>Thr, 06-Apr 2017, 8:00 PM</item>
+        <item>Sat, 08-Apr 2017, 4:00 PM</item>
+        <item>Tue, 11-Apr 2017, 8:00 PM</item>
+        <item>Fri, 14-Apr 2017, 8:00 PM</item>
+        <item>Sat, 16-Apr 2017, 8:00 PM</item>
+        <item>Sat, 22-Apr 2017, 8:00 PM</item>
+        <item>Mon, 24-Apr 2017, 8:00 PM</item>
+        <item>Wed, 26-Apr 2017, 8:00 PM</item>
+        <item>Sat, 29-Apr 2017, 4:00 PM</item>
+        <item>Mon, 01-May 2017, 8:00 PM</item>
+        <item>Wed, 03-May 2017, 8:00 PM</item>
+        <item>Sat, 06-May 2017, 4:00 PM</item>
+        <item>Fri, 12-May 2017, 4:00 PM</item>
+        <item>Sun, 14-May 2017, 4:00 PM</item>
+    </string-array>
+
+    <string-array name="rps_match_play">
+        <item>Rising Pune Supergiants v Mumbai Indians</item>
+        <item>Kings XI Punjab v Rising Pune Supergiants</item>
+        <item>Rising Pune Supergiants vs Dalhi daredevils</item>
+        <item>Gujarat Lions vs Rising Pune Supergiants</item>
+        <item>Royal Challengers Bangalore Vs Rising Pune Supergiants</item>
+        <item>Rising Pune Vs Sunrisers Hyderabad</item>
+        <item>Mumbai Indians vs Rising Pune Supergiants</item>
+        <item>Rising Pune Supergiants vs Kolkata Knight Riders</item>
+        <item>Rising Pune Supergiants vs Royal Challengers Bangalore</item>
+        <item>Rising Pune Supergiants vs Gujarat Lions</item>
+        <item>Kolkata Knight Riders Vs Rising Pune Supergiants</item>
+        <item>Sunrisers Hyderabad vs Rising Pune Supergiants</item>
+        <item>Delhi Daredevils vs Rising Pune Supergiants</item>
+        <item>Rising Pune Supergiants vs Kings XI Punjab</item>
+    </string-array>
+
+    <string-array name="rps_match_venue">
+        <item>Pune</item>
+        <item>Indore</item>
+        <item>Pune</item>
+        <item>Rajkot</item>
+        <item>Bengaluru</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>Pune</item>
+        <item>Pune</item>
+        <item>Kolkata</item>
+        <item>Hyderabad</item>
+        <item>Delhi</item>
+        <item>Pune</item>
+    </string-array>
+
+    <string-array name="gl_date">
+        <item>Fri, 07-Apr 2017, 8:00 PM</item>
+        <item>Sun, 09-Apr 2017, 4:00 PM</item>
+        <item>Fri, 14-Apr 2017, 8:00 PM</item>
+        <item>Sun, 16-Apr 2017, 4:00 PM</item>
+        <item>Tue, 18-Apr 2017, 8:00 PM</item>
+        <item>Fri, 21-Apr 2017, 8:00 PM</item>
+        <item>Sun, 23-Apr 2017, 4:00 PM</item>
+        <item>Thr, 27-Apr 2017, 8:00 PM</item>
+        <item>Sat, 29-Apr 2017, 8:00 PM</item>
+        <item>Mon, 01-May 2017, 8:00 PM</item>
+        <item>Thr, 04-May 2017, 8:00 PM</item>
+        <item>Sun, 07-May 2017, 8:00 PM</item>
+        <item>Wed, 10-May 2017, 8:00 PM</item>
+        <item>Sat, 13-May 2017, 4:00 PM</item>
+    </string-array>
+
+    <string-array name="gl_match_play">
+        <item>Gujarat Lions v Kolkata Knight Riders</item>
+        <item>Sunrisers Hyderabad vs Gujarat Lions</item>
+        <item>Gujarat Lions vs Rising Pune Supergiants</item>
+        <item>Mumbai Indians vs Gujarat Lions</item>
+        <item>Gujarat Lions vs Royal Challengers Bangalore</item>
+        <item>Kolkata Knight Riders vs Gujarat Lions</item>
+        <item>Gujarat Lions vs Kings XI Punjab</item>
+        <item>Royal Challengers Bangalore vs Gujarat Lions</item>
+        <item>Gujarat Lions vs Mumbai Indians</item>
+        <item>Rising Pune Supergiants vs Gujarat Lions</item>
+        <item>Delhi Daredevils vs Gujarat Lions</item>
+        <item>Kings XI Punjab Vs Gujarat Lions</item>
+        <item>Gujarat Lions vs Delhi Daredevils</item>
+        <item>Gujarat Lions vs Sunrisers Hyderabad</item>
+
+    </string-array>
+
+    <string-array name="gl_match_venue">
+        <item>Rajkot</item>
+        <item>Hyderabad</item>
+        <item>Rajkot</item>
+        <item>Mumbai</item>
+        <item>Rajkot</item>
+        <item>Kolkata</item>
+        <item>Rajkot</item>
+        <item>Bengaluru</item>
+        <item>Rajkot</item>
+        <item>Pune</item>
+        <item>Delhi</item>
+        <item>Mohali</item>
+        <item>Kanpur</item>
+        <item>Kanpur</item>
+    </string-array>
+
+    <string-array name="dd_date">
+        <item>Sat, 08-Apr 2017, 8:00 PM</item>
+        <item>Tue, 11-Apr 2017, 8:00 PM</item>
+        <item>Sat, 15-Apr 2017, 8:00 PM</item>
+        <item>Mon, 17-Apr 2017, 4:00 PM</item>
+        <item>Wed, 19-Apr 2017, 4:00 PM</item>
+        <item>Sat, 22-Apr 2017, 4:00 PM</item>
+        <item>Fri, 28-Apr 2017, 4:00 PM</item>
+        <item>Sun, 30-Apr 2017, 4:00 PM</item>
+        <item>Tue, 02-May 2017, 8:00 PM</item>
+        <item>Thr, 04-May 2017, 8:00 PM</item>
+        <item>Sat, 06-May 2017, 8:00 PM</item>
+        <item>Wed, 10-May 2017, 8:00 PM</item>
+        <item>Fri, 12-May 2017, 4:00 PM</item>
+        <item>Sun, 14-May 2017, 8:00 PM</item>
+    </string-array>
+
+    <string-array name="dd_match_play">
+        <item>Royal Challengers Bangalore v Delhi Daredevils</item>
+        <item>Rising Pune Supergiants vs Delhi daredevils</item>
+        <item>Delhi Daredevils vs Kings XI Punjab</item>
+        <item>Delhi Daredevils Vs Kolkata Knight Riders</item>
+        <item>Sunrisers Hyderabad vs Delhi Daredevils</item>
+        <item>Delhi Daredevils vs Mumbai Indians</item>
+        <item>Kolkata Knight Riders vs Delhi Daredevils</item>
+        <item>Kings XI Punjab vs Delhi Daredevils</item>
+        <item>Delhi Daredevils vs Sunrisers Hyderabad</item>
+        <item>Delhi Daredevils vs Gujarat Lions</item>
+        <item>Mumbai Indians Vs Delhi Daredevils</item>
+        <item>Gujarat Lions vs Delhi Daredevils</item>
+        <item>Delhi Daredevils vs Rising Pune Supergiants</item>
+        <item>Delhi Daredevils vs Royal Challengers Bangalore</item>
+    </string-array>
+
+    <string-array name="dd_match_venue">
+        <item>Bengaluru</item>
+        <item>Pune</item>
+        <item>Delhi</item>
+        <item>Delhi</item>
+        <item>Hyderabad</item>
+        <item>Delhi</item>
+        <item>Kolkata</item>
+        <item>Mohali</item>
+        <item>Delhi</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Kanpur</item>
+        <item>Delhi</item>
+        <item>Delhi</item>
+    </string-array>
+
+    <string-array name="kp_date">
+        <item>Sat, 08-Apr 2017, 4:00 PM</item>
+        <item>Mon, 10-Apr 2017, 4:00 PM</item>
+        <item>Thr, 13-Apr 2017, 8:00 PM</item>
+        <item>Sat, 15-Apr 2017, 8:00 PM</item>
+        <item>Mon, 17-Apr 2017, 8:00 PM</item>
+        <item>Thr, 20-Apr 2017, 8:00 PM</item>
+        <item>Sun, 23-Apr 2017, 4:00 PM</item>
+        <item>Fri, 28-Apr 2017, 8:00 PM</item>
+        <item>Sun, 30-Apr 2017, 4:00 PM</item>
+        <item>Fri, 05-May 2017, 8:00 PM</item>
+        <item>Sun, 07-May 2017, 8:00 PM</item>
+        <item>Tue, 09-May 2017, 8:00 PM</item>
+        <item>Thr, 11-May 2017, 8:00 PM</item>
+        <item>Sun, 14-May 2017, 4:00 PM</item>
+    </string-array>
+
+    <string-array name="kp_match_play">
+        <item>Kings XI Punjab v Rising Pune Supergiants</item>
+        <item>Kings XI Punjab vs Royal Challengers Bangalore</item>
+        <item>Kolkata Knight Riders vs Kings XI Punjab</item>
+        <item>Delhi Daredevils vs Kings XI Punjab</item>
+        <item>Sunrisers Hyderabad vs Kings XI Punjab</item>
+        <item>Kings XI Punjab vs Mumbai Indians</item>
+        <item>Gujarat Lions vs Kings XI Punjab</item>
+        <item>Kings XI Punjab vs Sunrisers Hyderabad</item>
+        <item>Kings XI Punjab vs Delhi Daredevils</item>
+        <item>Royal Challengers Bangalore vs Kings XI Punjab</item>
+        <item>Kings XI Punjab Vs Gujarat Lions</item>
+        <item>Kings XI Punjab vs Kolkata Knight riders</item>
+        <item>Mumbai Indians vs Kings XI Punjab</item>
+        <item>Rising Pune Supergiants vs Kings XI Punjab</item>
+    </string-array>
+
+    <string-array name="kp_match_venue">
+        <item>Indore</item>
+        <item>Indore</item>
+        <item>Kolkata</item>
+        <item>Delhi</item>
+        <item>Hyderabad</item>
+        <item>Indore</item>
+        <item>Rajkot</item>
+        <item>Mohali</item>
+        <item>Mohali</item>
+        <item>Bengaluru</item>
+        <item>Mohali</item>
+        <item>Mohali</item>
+        <item>Mumbai</item>
+        <item>Pune</item>
+    </string-array>
+
+    <string-array name="kkr_date">
+        <item>Fri, 07-Apr 2017, 8:00 PM</item>
+        <item>Sun, 09-Apr 2017, 8:00 PM</item>
+        <item>Thr, 13-Apr 2017, 8:00 PM</item>
+        <item>Sat, 15-Apr 2017, 4:00 PM</item>
+        <item>Mon, 17-Apr 2017, 4:00 PM</item>
+        <item>Fri, 21-Apr 2017, 8:00 PM</item>
+        <item>Sun, 23-Apr 2017, 8:00 PM</item>
+        <item>Wed, 26-Apr 2017, 8:00 PM</item>
+        <item>Fri, 28-Apr 2017, 4:00 PM</item>
+        <item>Sun, 30-Apr 2017, 8:00 PM</item>
+        <item>Wed, 03-May 2017, 8:00 PM</item>
+        <item>Sun, 07-May 2017, 4:00 PM</item>
+        <item>Tue, 09-May 2017, 8:00 PM</item>
+        <item>Sat, 13-May 2017, 8:00 PM</item>
+    </string-array>
+
+    <string-array name="kkr_match_play">
+        <item>Gujarat Lions v Kolkata Knight Riders</item>
+        <item>Mumbai Indians vs Kolkata Knight Riders</item>
+        <item>Kolkata Knight Riders vs Kings XI Punjab</item>
+        <item>Kolkata Knight Riders vs Sunrisers Hyderabad</item>
+        <item>Delhi Daredevils Vs Kolkata Knight Riders</item>
+        <item>Kolkata Knight Riders vs Gujarat Lions</item>
+        <item>Kolkata Knight Riders Vs Royal Challengers Bangalore</item>
+        <item>Rising Pune Supergiants vs Kolkata Knight Riders</item>
+        <item>Kolkata Knight Riders vs Delhi Daredevils</item>
+        <item>Sunrisers Hyderabad vs Kolkata Knight Riders</item>
+        <item>Kolkata Knight Riders Vs Rising Pune Supergiants</item>
+        <item>Royal Challengers Bangalore vs Kolkata Knight Riders</item>
+        <item>Kings XI Punjab vs Kolkata Knight riders</item>
+        <item>Kolkata Knight Riders vs Mumbai Indians</item>
+    </string-array>
+    <string-array name="kkr_match_venue">
+        <item>Rajkot</item>
+        <item>Mumbai</item>
+        <item>Kolkata</item>
+        <item>Kolkata</item>
+        <item>Delhi</item>
+        <item>Kolkata</item>
+        <item>Kolkata</item>
+        <item>Pune</item>
+        <item>Kolkata</item>
+        <item>Hyderabad</item>
+        <item>Kolkata</item>
+        <item>Bengaluru</item>
+        <item>Mohali</item>
+        <item>Kolkata</item>
+    </string-array>
+
+
+    <array name="topics_array">
+        <item>@array/players_matches</item>
+    </array>
+
 </resources>

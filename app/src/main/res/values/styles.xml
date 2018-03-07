@@ -21,4 +21,9 @@
     <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">17sp</item>
     </style>
+
+    <style name="splash_screen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_brand_layer</item>
+    </style>
+
 </resources>

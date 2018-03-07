@@ -1,8 +1,20 @@
 <resources>
     <string name="app_name">IPL 2017</string>
-
+    <string name="app_name1">IPL SEASON 2017</string>
+    <string name="version">V 1.0.7</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="match">*M - Matches Played</string>
+    <string name="won">*W - Matches Won</string>
+    <string name="lost">*L - Matches Lost</string>
+    <string name="draw">*T - Matches Tied</string>
+    <string name="point">*P - Total Points</string>
+    <string name="nrr">*NRR - Net Run Rate</string>
+
+    <string name="action_settings">Refresh</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5830084677705558/7452388624</string>
+    <string name="banner_ad_unit_id1">ca-app-pub-5830084677705558/1405855029</string>
+    <string name="banner_ad_unit_id_full">ca-app-pub-5830084677705558/2882588222</string>
+
 </resources>

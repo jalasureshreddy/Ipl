@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="cardStyle" format="reference" />
+
+    <attr name="font_style">
+        <enum name="bold" value="0" />
+        <enum name="light" value="1" />
+        <enum name="regular" value="2" />
+        <enum name="semibold" value="3" />
+    </attr>
 </resources>
