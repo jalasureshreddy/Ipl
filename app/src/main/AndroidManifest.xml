@@ -86,7 +86,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activites.TeamMatches"
-            android:label="Team Matches"
+            android:label="Team Fixtures"
             android:parentActivityName=".activites.TeamsActivity"
             android:screenOrientation="portrait" />
         <activity
@@ -109,6 +109,7 @@
             android:label="Match Summary"
             android:parentActivityName=".activites.Results_Activity"
             android:screenOrientation="portrait" />
+
 
     </application>
 

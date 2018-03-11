@@ -39,7 +39,7 @@ public class Bowlers_Adapter extends RecyclerView.Adapter<Bowlers_Adapter.ViewHo
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.player.setText(bowlersList.get(position));
-        holder.player.setTypeface(Typeface.createFromAsset(mContext.getAssets(), "OpenSans-Semibold.ttf"));
+        //holder.player.setTypeface(Typeface.createFromAsset(mContext.getAssets(), "OpenSans-Semibold.ttf"));
     }
 
     @Override

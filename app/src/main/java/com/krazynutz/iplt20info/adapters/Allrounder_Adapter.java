@@ -40,7 +40,7 @@ public class Allrounder_Adapter extends RecyclerView.Adapter<Allrounder_Adapter.
     public void onBindViewHolder(ViewHolder holder, int position) {
 
         holder.player.setText(allrounderList.get(position));
-        holder.player.setTypeface(Typeface.createFromAsset(mContext.getAssets(), "OpenSans-Semibold.ttf"));
+        //holder.player.setTypeface(Typeface.createFromAsset(mContext.getAssets(), "OpenSans-Semibold.ttf"));
     }
 
     @Override

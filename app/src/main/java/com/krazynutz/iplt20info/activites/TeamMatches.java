@@ -1,5 +1,6 @@
 package com.krazynutz.iplt20info.activites;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.AsyncTask;
@@ -39,7 +40,7 @@ public class TeamMatches extends AppCompatActivity {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
-    private ArrayList<String> date, time, play, place;
+    private ArrayList<String> date, time, play, place, result;
     @BindView(R.id.recycler_viewH)
     RecyclerView viewH;
     private TeamMatchList_Adaptor horizontalAdapter;
@@ -67,7 +68,7 @@ public class TeamMatches extends AppCompatActivity {
             setSupportActionBar(toolbar);
             ActionBar actionBar = getSupportActionBar();
             if (actionBar != null) {
-                actionBar.setDisplayHomeAsUpEnabled(false);
+                actionBar.setDisplayHomeAsUpEnabled(true);
                 actionBar.setDisplayShowHomeEnabled(false);
                 actionBar.setDisplayShowTitleEnabled(true);
                 actionBar.setDisplayUseLogoEnabled(false);
@@ -99,6 +100,7 @@ public class TeamMatches extends AppCompatActivity {
         date = new ArrayList<>();
         play = new ArrayList<>();
         place = new ArrayList<>();
+        result = new ArrayList<>();
 
         LinearLayoutManager horizontalLayoutManagaer = new LinearLayoutManager(TeamMatches.this, LinearLayoutManager.VERTICAL, false);
         viewH.setLayoutManager(horizontalLayoutManagaer);
@@ -112,12 +114,18 @@ public class TeamMatches extends AppCompatActivity {
 
     // RemoteDataTask AsyncTask
     private class RemoteDataTask extends AsyncTask<String, Void, String> {
+        private ProgressDialog progressDoalog;
         Storage storage;
 
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-
+            progressDoalog = new ProgressDialog(TeamMatches.this);
+            progressDoalog.setMessage("Its Loading....");
+            progressDoalog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+            progressDoalog.setIndeterminate(true);
+            progressDoalog.setCancelable(false);
+            progressDoalog.show();
         }
 
         @Override
@@ -186,7 +194,7 @@ public class TeamMatches extends AppCompatActivity {
         @Override
         protected void onPostExecute(String str) {
             super.onPostExecute(str);
-            horizontalAdapter = new TeamMatchList_Adaptor(getApplicationContext(), date, play, place);
+            horizontalAdapter = new TeamMatchList_Adaptor(getApplicationContext(), date, play, place, result);
             viewH.setAdapter(horizontalAdapter);
             horizontalAdapter.notifyDataSetChanged();
         }
@@ -213,7 +221,7 @@ public class TeamMatches extends AppCompatActivity {
                 jsonArraydate = jsonObject.getJSONArray("date");
                 for (int i = 0; i < jsonArraydate.length(); i++) {
                     System.out.println("date===" + jsonArraydate.get(i));
-                    String datestring =jsonArraydate.get(i).toString();
+                    String datestring = jsonArraydate.get(i).toString();
                     date.add(datestring);
                 }
 
@@ -221,42 +229,49 @@ public class TeamMatches extends AppCompatActivity {
                 JSONArray jsonArrayteams = jsonObject.getJSONArray("teams");
                 for (int i = 0; i < jsonArrayteams.length(); i++) {
                     System.out.println("teams===" + jsonArrayteams.get(i));
-                    String playstring=jsonArrayteams.get(i).toString();
-                  play.add(playstring);
+                    String playstring = jsonArrayteams.get(i).toString();
+                    play.add(playstring);
                 }
 
                 JSONArray jsonArrayplace = jsonObject.getJSONArray("place");
                 for (int i = 0; i < jsonArrayplace.length(); i++) {
                     System.out.println("place===" + jsonArrayplace.get(i));
-                   String placestring =jsonArrayplace.get(i).toString();
+                    String placestring = jsonArrayplace.get(i).toString();
                     place.add(placestring);
                 }
-               runOnUiThread(new Runnable() {
-                   @Override
-                   public void run() {
-                       if(pageNo==0)
-                       {
-                           viewH.setBackgroundResource(R.drawable.srh_bg);
-                       }
-                       else if (pageNo == 1) {
-                           viewH.setBackgroundResource(R.drawable.mi_bg);
-                       } else if (pageNo == 2) {
-                           viewH.setBackgroundResource(R.drawable.rcb_bg);
-                       } else if (pageNo == 3) {
-                           viewH.setBackgroundResource(R.drawable.rp_bg);
-                       } else if (pageNo == 4) {
-                           viewH.setBackgroundResource(R.drawable.gl_bg);
-                       } else if (pageNo == 5) {
-                           viewH.setBackgroundResource(R.drawable.dd_bg);
-                       } else if (pageNo == 6) {
-                           viewH.setBackgroundResource(R.drawable.kp_bg);
-                       } else if (pageNo == 7) {
-                           viewH.setBackgroundResource(R.drawable.kkr_bg);
-                       }
 
-                       horizontalAdapter.notifyDataSetChanged();
-                   }
-               });
+                JSONArray jsonArrayresult = jsonObject.getJSONArray("result");
+                for (int i = 0; i < jsonArrayresult.length(); i++) {
+                    System.out.println("result===" + jsonArrayresult.get(i));
+                    String result_tring = jsonArrayresult.get(i).toString();
+                    result.add(result_tring);
+                }
+
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        progressDoalog.dismiss();
+                        if (pageNo == 0) {
+                            viewH.setBackgroundResource(R.drawable.srh_bg);
+                        } else if (pageNo == 1) {
+                            viewH.setBackgroundResource(R.drawable.mi_bg);
+                        } else if (pageNo == 2) {
+                            viewH.setBackgroundResource(R.drawable.rcb_bg);
+                        } else if (pageNo == 3) {
+                            viewH.setBackgroundResource(R.drawable.rp_bg);
+                        } else if (pageNo == 4) {
+                            viewH.setBackgroundResource(R.drawable.gl_bg);
+                        } else if (pageNo == 5) {
+                            viewH.setBackgroundResource(R.drawable.dd_bg);
+                        } else if (pageNo == 6) {
+                            viewH.setBackgroundResource(R.drawable.kp_bg);
+                        } else if (pageNo == 7) {
+                            viewH.setBackgroundResource(R.drawable.kkr_bg);
+                        }
+
+                        horizontalAdapter.notifyDataSetChanged();
+                    }
+                });
 
             } catch (JSONException e) {
                 e.printStackTrace();

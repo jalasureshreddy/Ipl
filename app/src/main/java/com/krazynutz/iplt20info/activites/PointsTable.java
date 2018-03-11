@@ -172,8 +172,8 @@ public class PointsTable extends AppCompatActivity
 
 
         dbName = "POINTSTABLE";
-        collection = "Points";
-        docId = "58c7d0f2e4b0d7f86c675a0b";
+        collection = "PointsNew";
+        docId = "58eb45b5e4b0be582862f675";
 
         App42API.initialize(getApplicationContext(),"dd210bf91797594f6aed3dccd464bc5a493ba418f1763cb083e1929a6faa09b8",
                 "8677f049dd2b14686e05d27a83152b43cc2c1b4aa80e3ae97ca82f0163abeb23");
@@ -294,7 +294,7 @@ public class PointsTable extends AppCompatActivity
                                 runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
-
+                                        mProgressDialog.dismiss();
                                         //setValues
                                         teams_dd.setText("DD");
                                         dd_match.setText(ddmatches);
@@ -387,7 +387,6 @@ public class PointsTable extends AppCompatActivity
             protected void onPostExecute(String str)
             {
                 super.onPostExecute(str);
-                mProgressDialog.dismiss();
             }
 
         public void networkCall()
@@ -411,7 +410,6 @@ public class PointsTable extends AppCompatActivity
 
    public void setFont()
     {
-
         teams_srh.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
         teams_dd.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
         teams_gl.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));

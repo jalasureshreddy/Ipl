@@ -10,4 +10,10 @@
     <dimen name="text_240dp_lines">18sp</dimen>
     <dimen name="text_320dp_lines">18sp</dimen>
     <dimen name="text_480dp_lines">26sp</dimen>
+
+    <dimen name="text_480dp_lines1">22sp</dimen>
+
+    <dimen name="text_480dp_lines2">26sp</dimen>
+
+    <dimen name="generic_margin_half">5dp</dimen>
 </resources>

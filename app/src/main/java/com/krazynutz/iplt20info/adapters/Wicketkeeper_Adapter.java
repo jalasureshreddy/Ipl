@@ -40,7 +40,7 @@ public class Wicketkeeper_Adapter extends RecyclerView.Adapter<Wicketkeeper_Adap
     public void onBindViewHolder(ViewHolder holder, int position) {
 
         holder.player.setText(wicketKeeperList.get(position));
-        holder.player.setTypeface(Typeface.createFromAsset(mContext.getAssets(), "OpenSans-Semibold.ttf"));
+        //holder.player.setTypeface(Typeface.createFromAsset(mContext.getAssets(), "OpenSans-Semibold.ttf"));
     }
 
     @Override

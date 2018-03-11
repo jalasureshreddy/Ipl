@@ -19,8 +19,7 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 import com.krazynutz.iplt20info.R;
 import com.krazynutz.iplt20info.fragments.Teams_Fragment;
 
-public class TeamsActivity extends AppCompatActivity
-{
+public class TeamsActivity extends AppCompatActivity {
     private MaterialViewPager mViewPager;
     private Toolbar toolbar;
     String[] teams;
@@ -33,26 +32,23 @@ public class TeamsActivity extends AppCompatActivity
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teams);
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         teams = getResources().getStringArray(R.array.teams);
-        TEAMS_COUNT=teams.length;
-        mViewPager = (MaterialViewPager)findViewById(R.id.materialViewPager);
-        imHeader = ((ImageView)findViewById(R.id.imHeader));
+        TEAMS_COUNT = teams.length;
+        mViewPager = (MaterialViewPager) findViewById(R.id.materialViewPager);
+        imHeader = ((ImageView) findViewById(R.id.imHeader));
         toolbar = mViewPager.getToolbar();
         toolbar.setTitleTextColor(ContextCompat.getColor(getApplicationContext(), R.color.colorWhite));
 
 
-        if(toolbar!=null)
-        {
+        if (toolbar != null) {
             setSupportActionBar(toolbar);
-            ActionBar actionBar= getSupportActionBar();
-            if(actionBar!=null)
-            {
+            ActionBar actionBar = getSupportActionBar();
+            if (actionBar != null) {
                 actionBar.setDisplayHomeAsUpEnabled(true);
                 actionBar.setDisplayShowHomeEnabled(false);
                 actionBar.setDisplayShowTitleEnabled(true);
@@ -76,49 +72,35 @@ public class TeamsActivity extends AppCompatActivity
             public int getCount() {
                 return TEAMS_COUNT;
             }
+
             @Override
             public CharSequence getPageTitle(int position) {
                 return teams[position];
             }
         });
 
-        mViewPager.setMaterialViewPagerListener(new MaterialViewPager.Listener(){
+        mViewPager.setMaterialViewPagerListener(new MaterialViewPager.Listener() {
 
             @Override
             public HeaderDesign getHeaderDesign(int page) {
 
-                pageNo=page;
-                if(page==0)
-                {
+                pageNo = page;
+                if (page == 0) {
                     imHeader.setImageResource(R.drawable.srh);
 
-                }
-                else if(page==1)
-                {
+                } else if (page == 1) {
                     imHeader.setImageResource(R.drawable.mi);
-                }
-                else if(page==2)
-                {
+                } else if (page == 2) {
                     imHeader.setImageResource(R.drawable.rcb);
-                }
-                else if(page==3)
-                {
+                } else if (page == 3) {
                     imHeader.setImageResource(R.drawable.pune);
-                }
-                else if(page==4)
-                {
+                } else if (page == 4) {
                     imHeader.setImageResource(R.drawable.gujarat);
-                }
-                else if(page==5)
-                {
+                } else if (page == 5) {
                     imHeader.setImageResource(R.drawable.delhi);
-                }
-                else if(page==6)
-                {
+                } else if (page == 6) {
                     imHeader.setImageResource(R.drawable.punjab);
-                }
-                else if(page==7)
-                {
+                } else if (page == 7) {
                     imHeader.setImageResource(R.drawable.kkr);
                 }
                 // imHeader.setImageResource(topics_drawables[paramAnonymousInt]);
