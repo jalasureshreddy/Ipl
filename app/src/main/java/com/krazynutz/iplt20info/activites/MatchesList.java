@@ -125,7 +125,7 @@ public class MatchesList extends AppCompatActivity
 
 
 
-      //  new RemoteDataTask().execute();
+        new RemoteDataTask().execute();
     }
 
     // RemoteDataTask AsyncTask
@@ -146,11 +146,11 @@ public class MatchesList extends AppCompatActivity
         protected String doInBackground(String... strings)
         {
             dbName = "POINTSTABLE";
-            collection = "Results";
-            docId = "58c82911e4b0fe51287e5247";
+            collection = "MatchSchedule";
+            docId = "5aa4437be4b09e5367a004ee";
 
-            App42API.initialize(getApplicationContext(), "dd210bf91797594f6aed3dccd464bc5a493ba418f1763cb083e1929a6faa09b8",
-                    "8677f049dd2b14686e05d27a83152b43cc2c1b4aa80e3ae97ca82f0163abeb23");
+            App42API.initialize(getApplicationContext(), Constants.apiKey,
+                    Constants.secretKey);
             App42CacheManager.setPolicy(App42CacheManager.Policy.NETWORK_FIRST);
 
             StorageService storageService = App42API.buildStorageService();
@@ -161,18 +161,54 @@ public class MatchesList extends AppCompatActivity
                     storage = (Storage) response;
                     if(storage.isFromCache())
                     {
-                      //  getResult();
+                        getResult();
                     }
                     else
                     {
-                     //   getResult();
+                        getResult();
                     }
 
                         try
                         {
                             JSONObject jsonObj = new JSONObject(jsonStr);
 
-                            JSONArray result = jsonObj.getJSONArray("Results");
+                         //   JSONArray names=jsonObj.getJSONObject(jsonObj)
+
+                            for(int i = 0; i<jsonObj.names().length(); i++){
+                                JSONArray names =jsonObj.getJSONArray(jsonObj.names().get(i).toString());
+
+                                String  time=names.getJSONObject(0).getString("time");
+                                String teams=names.getJSONObject(0).getString("teams");
+                                String stadium=names.getJSONObject(0).getString("teams");
+                                System.out.println("key = " + jsonObj.names().getString(i) + " time = "+time);
+                                if(names.getJSONObject(1) !=null)
+                                {
+                                   String time1= names.getJSONObject(1).getString("time");
+                                    String team1=  names.getJSONObject(1).getString("teams");
+                                    String stadium1= names.getJSONObject(1).getString("stadium");
+                                    System.out.println("key1 = " + jsonObj.names().getString(i) + " time1 = "+time1);
+                                }
+                               /* JSONArray mat=names.getJSONArray(0);
+                                for(int j=0;j<mat.length();j++)
+                                {
+                                    String match=mat.getString(0);
+                                    String st=mat.getString(1);
+
+                                JSONArray mat1=names.getJSONArray(1);
+                                String match1="n";
+                                if(mat1.length()>0)
+                                {
+                                    match1=mat.getString(0);
+                                    String st1=mat.getString(1);
+                                }*/
+
+
+                               // }
+
+
+                            }
+
+                            /*JSONArray result = jsonObj.getJSONArray("Results");
                             for (int i = 0; i < result.length(); i++) {
                                 JSONObject c = result.getJSONObject(i);
 
@@ -182,7 +218,7 @@ public class MatchesList extends AppCompatActivity
                                 name2.add(res);
                                 System.out.println("RRRR===>" + match + res);
 
-                            }
+                            }*/
                         }
                         catch (JSONException e)
                         {
