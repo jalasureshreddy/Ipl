@@ -171,7 +171,7 @@
                     android:textColor="@color/colorTextPrimary"
                     android:gravity="left"
                     android:layout_gravity="left"
-                    android:id="@+id/teamssrh"
+                    android:id="@+id/onesrh"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="SRH"
@@ -183,7 +183,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/srhmatch"
+                android:id="@+id/onematch"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -193,7 +193,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/srhwon"
+                android:id="@+id/onewon"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -203,7 +203,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/srhlost"
+                android:id="@+id/onelost"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -213,7 +213,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/srhdraw"
+                android:id="@+id/onedraw"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -223,7 +223,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/srhpoints"
+                android:id="@+id/onepoints"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -233,7 +233,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/srhnrr"
+                android:id="@+id/onenrr"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0.00"
@@ -273,7 +273,7 @@
                     android:textColor="@color/colorTextPrimary"
                     android:gravity="left"
                     android:layout_gravity="left"
-                    android:id="@+id/teamsrcb"
+                    android:id="@+id/tworcb"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="RCB"
@@ -285,7 +285,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rcbmatch"
+                android:id="@+id/twomatch"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -295,7 +295,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rcbwon"
+                android:id="@+id/twowon"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -305,7 +305,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rcblost"
+                android:id="@+id/twolost"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -315,7 +315,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rcbdraw"
+                android:id="@+id/twodraw"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -325,7 +325,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rcbpoints"
+                android:id="@+id/twopoints"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -335,7 +335,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rcbnrr"
+                android:id="@+id/twonrr"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -375,7 +375,7 @@
                     android:textColor="@color/colorTextPrimary"
                     android:gravity="left"
                     android:layout_gravity="left"
-                    android:id="@+id/teamsmi"
+                    android:id="@+id/threemi"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="MI"
@@ -387,7 +387,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/mimatch"
+                android:id="@+id/threematch"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -397,7 +397,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/miwon"
+                android:id="@+id/threewon"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -407,7 +407,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/milost"
+                android:id="@+id/threelost"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -417,7 +417,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/midraw"
+                android:id="@+id/threedraw"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -427,7 +427,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/mipoints"
+                android:id="@+id/threepoints"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -437,7 +437,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/minrr"
+                android:id="@+id/threenrr"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -477,7 +477,7 @@
                     android:textColor="@color/colorTextPrimary"
                     android:gravity="left"
                     android:layout_gravity="left"
-                    android:id="@+id/teamsrps"
+                    android:id="@+id/fourrps"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="RPS"
@@ -489,7 +489,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rpsmatch"
+                android:id="@+id/fourmatch"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -499,7 +499,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rpswon"
+                android:id="@+id/fourwon"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -509,7 +509,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rpslost"
+                android:id="@+id/fourlost"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -519,7 +519,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rpsdraw"
+                android:id="@+id/fourdraw"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -529,7 +529,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rpspoints"
+                android:id="@+id/fourpoints"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -539,7 +539,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/rpsnrr"
+                android:id="@+id/fournrr"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -579,7 +579,7 @@
                     android:textColor="@color/colorTextPrimary"
                     android:gravity="left"
                     android:layout_gravity="left"
-                    android:id="@+id/teamsgl"
+                    android:id="@+id/fivegl"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="GL"
@@ -591,7 +591,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/glmatch"
+                android:id="@+id/fivematch"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -601,7 +601,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/glwon"
+                android:id="@+id/fivewon"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -611,7 +611,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/gllost"
+                android:id="@+id/fivelost"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -621,7 +621,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/gldraw"
+                android:id="@+id/fivedraw"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -631,7 +631,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/glpoints"
+                android:id="@+id/fivepoints"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -641,7 +641,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/glnrr"
+                android:id="@+id/fivenrr"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -681,7 +681,7 @@
                     android:textColor="@color/colorTextPrimary"
                     android:gravity="left"
                     android:layout_gravity="left"
-                    android:id="@+id/teamskkr"
+                    android:id="@+id/sixkkr"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="KKR"
@@ -693,7 +693,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kkrmatch"
+                android:id="@+id/sixmatch"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -703,7 +703,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kkrwon"
+                android:id="@+id/sixwon"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -713,7 +713,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kkrlost"
+                android:id="@+id/sixlost"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -723,7 +723,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kkrdraw"
+                android:id="@+id/sixdraw"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -733,7 +733,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kkrpoints"
+                android:id="@+id/sixpoints"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -743,7 +743,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kkrnrr"
+                android:id="@+id/sixnrr"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -784,7 +784,7 @@
                     android:textColor="@color/colorTextPrimary"
                     android:gravity="left"
                     android:layout_gravity="left"
-                    android:id="@+id/teamsdd"
+                    android:id="@+id/sevendd"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="DD"
@@ -796,7 +796,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/ddmatch"
+                android:id="@+id/sevenmatch"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -806,7 +806,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/ddrwon"
+                android:id="@+id/sevenwon"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -816,7 +816,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/ddlost"
+                android:id="@+id/sevenlost"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -826,7 +826,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/dddraw"
+                android:id="@+id/sevendraw"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -836,7 +836,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/ddpoints"
+                android:id="@+id/sevenpoints"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -846,7 +846,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/ddnrr"
+                android:id="@+id/sevennrr"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -886,7 +886,7 @@
                     android:textColor="@color/colorTextPrimary"
                     android:gravity="left"
                     android:layout_gravity="left"
-                    android:id="@+id/teamskxip"
+                    android:id="@+id/eightkxip"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="KXIP"
@@ -898,7 +898,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kxipmatch"
+                android:id="@+id/eightpmatch"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -908,7 +908,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kxiprwon"
+                android:id="@+id/eightprwon"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -918,7 +918,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kxiplost"
+                android:id="@+id/eightplost"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -928,7 +928,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kxipdraw"
+                android:id="@+id/eightpdraw"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -938,7 +938,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kxippoints"
+                android:id="@+id/eightppoints"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"
@@ -948,7 +948,7 @@
             <TextView
                 android:textColor="@color/colorTextPrimary"
                 android:gravity="center"
-                android:id="@+id/kxipnrr"
+                android:id="@+id/eightpnrr"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:text="0"

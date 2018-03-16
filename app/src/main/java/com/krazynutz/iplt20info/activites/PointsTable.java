@@ -46,76 +46,76 @@ public class PointsTable extends AppCompatActivity
     @BindView(R.id.tvPointTeamRunRate) TextView nrr;
 
     @BindView(R.id.table1) TableRow tableRow1;
-    @BindView(R.id.teamssrh) TextView teams_srh;
-    @BindView(R.id.srhmatch) TextView srh_match;
-    @BindView(R.id.srhwon) TextView srh_won;
-    @BindView(R.id.srhlost) TextView srh_lost;
-    @BindView(R.id.srhdraw) TextView srh_draw;
-    @BindView(R.id.srhpoints) TextView srh_points;
-    @BindView(R.id.srhnrr) TextView srh_nrr;
+    @BindView(R.id.onesrh) TextView teams_one;
+    @BindView(R.id.onematch) TextView one_match;
+    @BindView(R.id.onewon) TextView one_won;
+    @BindView(R.id.onelost) TextView one_lost;
+    @BindView(R.id.onedraw) TextView one_draw;
+    @BindView(R.id.onepoints) TextView one_points;
+    @BindView(R.id.onenrr) TextView one_nrr;
 
     @BindView(R.id.table2) TableRow tableRow2;
-    @BindView(R.id.teamsrcb) TextView teams_rcb;
-    @BindView(R.id.rcbmatch) TextView rcb_match;
-    @BindView(R.id.rcbwon) TextView rcb_won;
-    @BindView(R.id.rcblost) TextView rcb_lost;
-    @BindView(R.id.rcbdraw) TextView rcb_draw;
-    @BindView(R.id.rcbpoints) TextView rcb_points;
-    @BindView(R.id.rcbnrr) TextView rcb_nrr;
+    @BindView(R.id.tworcb) TextView teams_two;
+    @BindView(R.id.twomatch) TextView two_match;
+    @BindView(R.id.twowon) TextView two_won;
+    @BindView(R.id.twolost) TextView two_lost;
+    @BindView(R.id.twodraw) TextView two_draw;
+    @BindView(R.id.twopoints) TextView two_points;
+    @BindView(R.id.twonrr) TextView two_nrr;
 
     @BindView(R.id.table3) TableRow tableRow3;
-    @BindView(R.id.teamsmi) TextView teams_mi;
-    @BindView(R.id.mimatch) TextView mi_match;
-    @BindView(R.id.miwon) TextView mi_won;
-    @BindView(R.id.milost) TextView mi_lost;
-    @BindView(R.id.midraw) TextView mi_draw;
-    @BindView(R.id.mipoints) TextView mi_points;
-    @BindView(R.id.minrr) TextView mi_nrr;
+    @BindView(R.id.threemi) TextView teams_three;
+    @BindView(R.id.threematch) TextView three_match;
+    @BindView(R.id.threewon) TextView three_won;
+    @BindView(R.id.threelost) TextView three_lost;
+    @BindView(R.id.threedraw) TextView three_draw;
+    @BindView(R.id.threepoints) TextView three_points;
+    @BindView(R.id.threenrr) TextView three_nrr;
 
     @BindView(R.id.table4) TableRow tableRow4;
-    @BindView(R.id.teamsrps) TextView teams_rps;
-    @BindView(R.id.rpsmatch) TextView rps_match;
-    @BindView(R.id.rpswon) TextView rps_won;
-    @BindView(R.id.rpslost) TextView rps_lost;
-    @BindView(R.id.rpsdraw) TextView rps_draw;
-    @BindView(R.id.rpspoints) TextView rps_points;
-    @BindView(R.id.rpsnrr) TextView rps_nrr;
+    @BindView(R.id.fourrps) TextView teams_four;
+    @BindView(R.id.fourmatch) TextView four_match;
+    @BindView(R.id.fourwon) TextView four_won;
+    @BindView(R.id.fourlost) TextView four_lost;
+    @BindView(R.id.fourdraw) TextView four_draw;
+    @BindView(R.id.fourpoints) TextView four_points;
+    @BindView(R.id.fournrr) TextView four_nrr;
 
     @BindView(R.id.table5) TableRow tableRow5;
-    @BindView(R.id.teamsgl) TextView teams_gl;
-    @BindView(R.id.glmatch) TextView gl_match;
-    @BindView(R.id.glwon) TextView gl_won;
-    @BindView(R.id.gllost) TextView gl_lost;
-    @BindView(R.id.gldraw) TextView gl_draw;
-    @BindView(R.id.glpoints) TextView gl_points;
-    @BindView(R.id.glnrr) TextView gl_nrr;
+    @BindView(R.id.fivegl) TextView teams_five;
+    @BindView(R.id.fivematch) TextView five_match;
+    @BindView(R.id.fivewon) TextView five_won;
+    @BindView(R.id.fivelost) TextView five_lost;
+    @BindView(R.id.fivedraw) TextView five_draw;
+    @BindView(R.id.fivepoints) TextView five_points;
+    @BindView(R.id.fivenrr) TextView five_nrr;
 
     @BindView(R.id.table6) TableRow tableRow6;
-    @BindView(R.id.teamskkr) TextView teams_kkr;
-    @BindView(R.id.kkrmatch) TextView kkr_match;
-    @BindView(R.id.kkrwon) TextView kkr_won;
-    @BindView(R.id.kkrlost) TextView kkr_lost;
-    @BindView(R.id.kkrdraw) TextView kkr_draw;
-    @BindView(R.id.kkrpoints) TextView kkr_points;
-    @BindView(R.id.kkrnrr) TextView kkr_nrr;
+    @BindView(R.id.sixkkr) TextView teams_six;
+    @BindView(R.id.sixmatch) TextView six_match;
+    @BindView(R.id.sixwon) TextView six_won;
+    @BindView(R.id.sixlost) TextView six_lost;
+    @BindView(R.id.sixdraw) TextView six_draw;
+    @BindView(R.id.sixpoints) TextView six_points;
+    @BindView(R.id.sixnrr) TextView six_nrr;
 
     @BindView(R.id.table7) TableRow tableRow7;
-    @BindView(R.id.teamsdd) TextView teams_dd;
-    @BindView(R.id.ddmatch) TextView dd_match;
-    @BindView(R.id.ddrwon) TextView dd_won;
-    @BindView(R.id.ddlost) TextView dd_lost;
-    @BindView(R.id.dddraw) TextView dd_draw;
-    @BindView(R.id.ddpoints) TextView dd_points;
-    @BindView(R.id.ddnrr) TextView dd_nrr;
+    @BindView(R.id.sevendd) TextView teams_seven;
+    @BindView(R.id.sevenmatch) TextView seven_match;
+    @BindView(R.id.sevenwon) TextView seven_won;
+    @BindView(R.id.sevenlost) TextView seven_lost;
+    @BindView(R.id.sevendraw) TextView seven_draw;
+    @BindView(R.id.sevenpoints) TextView seven_points;
+    @BindView(R.id.sevennrr) TextView seven_nrr;
 
     @BindView(R.id.table8) TableRow tableRow8;
-    @BindView(R.id.teamskxip) TextView teams_kxip;
-    @BindView(R.id.kxipmatch) TextView kxip_match;
-    @BindView(R.id.kxiprwon) TextView kxip_won;
-    @BindView(R.id.kxiplost) TextView kxip_lost;
-    @BindView(R.id.kxipdraw) TextView kxip_draw;
-    @BindView(R.id.kxippoints) TextView kxip_points;
-    @BindView(R.id.kxipnrr) TextView kxip_nrr;
+    @BindView(R.id.eightkxip) TextView teams_eight;
+    @BindView(R.id.eightmatch) TextView eight_match;
+    @BindView(R.id.eightwon) TextView eight_won;
+    @BindView(R.id.eightlost) TextView eight_lost;
+    @BindView(R.id.eightdraw) TextView eight_draw;
+    @BindView(R.id.eightpoints) TextView eight_points;
+    @BindView(R.id.eightnrr) TextView eight_nrr;
 
     @BindView(R.id.match) TextView match_played;
     @BindView(R.id.won) TextView match_won;
@@ -126,14 +126,14 @@ public class PointsTable extends AppCompatActivity
 
     @BindView(R.id.adView) AdView mAdView;
 
-     String teammi,mimatches,miwins,milost,midraw,mipoints,minrr,
-            teamsrh,srhmatches,srhwins,srhlost,srhdraw,srhpoints,srhnrr,
-            teamrcb,rcbmatches,rcbwins,rcblost,rcbdraw,rcbpoints,rcbnrr,
-            teamrps,rpsmatches,rpswins,rpslost,rpsdraw,rpspoints,rpsnrr,
-            teamgl,glmatches,glwins,gllost,gldraw,glpoints,glnrr,
-            teamkkr,kkrmatches,kkrwins,kkrlost,kkrdraw,kkrpoints,kkrnrr,
-            teampunjab,punjabmatches,punjabwins,punjablost,punjabdraw,punjabpoints,punjabnrr,
-            teamdd,ddmatches,ddwins,ddlost,dddraw,ddpoints,ddnrr;
+     String one,teammi,threematches,threewins,threelost,threedraw,threepoints,threenrr,
+            two,teamsrh,fourmatches,fourwins,fourlost,fourdraw,fourpoints,fournrr,
+            three,teamrcb,fivematches,fivewins,fivelost,fivedraw,fivepoints,fivenrr,
+            four,teamrps,sixmatches,sixwins,sixlost,sixdraw,sixpoints,sixnrr,
+            five,teamgl,sevenmatches,sevenwins,sevenlost,sevendraw,sevenpoints,sevennrr,
+            six,teamkkr,eightmatches,eightwins,eightlost,eightdraw,eightpoints,eightnrr,
+            seven,teampunjab,twomatches,twowins,twolost,twodraw,twopoints,twonrr,
+            eight,teamdd,onematches,onewins,onelost,onedraw,onepoints,onenrr;
 
     String dbName, collection, docId, jsonStr;
     StorageService storageService;
@@ -220,152 +220,161 @@ public class PointsTable extends AppCompatActivity
                                 JSONObject jsonObj = new JSONObject(jsonStr);
 
                                 //DD
-                                JSONObject jsonObjDD= jsonObj.getJSONObject("DD");
-                                dddraw = jsonObjDD.get("draw").toString();
-                                ddlost = jsonObjDD.get("lost").toString();
-                                ddmatches = jsonObjDD.get("matches").toString();
-                                ddnrr = jsonObjDD.get("nrr").toString();
-                                ddpoints = jsonObjDD.get("points").toString();
-                                ddwins = jsonObjDD.get("wins").toString();
+                                JSONObject jsonObjone= jsonObj.getJSONObject("ONE");
+                                onedraw = jsonObjone.get("draw").toString();
+                                onelost = jsonObjone.get("lost").toString();
+                                onematches = jsonObjone.get("matches").toString();
+                                onenrr = jsonObjone.get("nrr").toString();
+                                onepoints = jsonObjone.get("points").toString();
+                                onewins = jsonObjone.get("wins").toString();
+                                one=jsonObjone.get("team").toString();
+
 
                                 //GL
-                                JSONObject jsonObjGL= jsonObj.getJSONObject("GL");
-                                gldraw = jsonObjGL.get("draw").toString();
-                                gllost = jsonObjGL.get("lost").toString();
-                                glmatches = jsonObjGL.get("matches").toString();
-                                glnrr = jsonObjGL.get("nrr").toString();
-                                glpoints = jsonObjGL.get("points").toString();
-                                glwins = jsonObjGL.get("wins").toString();
+                                JSONObject jsonObjtwo= jsonObj.getJSONObject("TWO");
+                                twodraw = jsonObjtwo.get("draw").toString();
+                                twolost = jsonObjtwo.get("lost").toString();
+                                twomatches = jsonObjtwo.get("matches").toString();
+                                twonrr = jsonObjtwo.get("nrr").toString();
+                                twopoints = jsonObjtwo.get("points").toString();
+                                twowins = jsonObjtwo.get("wins").toString();
+                                two=jsonObjtwo.get("team").toString();
 
                                 //KXIP
-                                JSONObject jsonObjKIXP= jsonObj.getJSONObject("KIXP");
-                                punjabdraw = jsonObjKIXP.get("draw").toString();
-                                punjablost = jsonObjKIXP.get("lost").toString();
-                                punjabmatches = jsonObjKIXP.get("matches").toString();
-                                punjabnrr = jsonObjKIXP.get("nrr").toString();
-                                punjabpoints = jsonObjKIXP.get("points").toString();
-                                punjabwins = jsonObjKIXP.get("wins").toString();
+                                JSONObject jsonObjthree= jsonObj.getJSONObject("THREE");
+                                threedraw = jsonObjthree.get("draw").toString();
+                                threelost = jsonObjthree.get("lost").toString();
+                                threematches = jsonObjthree.get("matches").toString();
+                                threenrr = jsonObjthree.get("nrr").toString();
+                                threepoints = jsonObjthree.get("points").toString();
+                                threewins = jsonObjthree.get("wins").toString();
+                                three=jsonObjthree.get("team").toString();
 
                                 //KKR
-                                JSONObject jsonObjKKR= jsonObj.getJSONObject("KKR");
-                                kkrdraw = jsonObjKKR.get("draw").toString();
-                                kkrlost = jsonObjKKR.get("lost").toString();
-                                kkrmatches = jsonObjKKR.get("matches").toString();
-                                kkrnrr = jsonObjKKR.get("nrr").toString();
-                                kkrpoints = jsonObjKKR.get("points").toString();
-                                kkrwins = jsonObjKKR.get("wins").toString();
+                                JSONObject jsonObjfour= jsonObj.getJSONObject("FOUR");
+                                fourdraw = jsonObjfour.get("draw").toString();
+                                fourlost = jsonObjfour.get("lost").toString();
+                                fourmatches = jsonObjfour.get("matches").toString();
+                                fournrr = jsonObjfour.get("nrr").toString();
+                                fourpoints = jsonObjfour.get("points").toString();
+                                fourwins = jsonObjfour.get("wins").toString();
+                                four=jsonObjfour.get("team").toString();
 
                                 //MI
-                                JSONObject jsonObjMI= jsonObj.getJSONObject("MI");
-                                midraw = jsonObjMI.get("draw").toString();
-                                milost = jsonObjMI.get("lost").toString();
-                                mimatches = jsonObjMI.get("matches").toString();
-                                minrr = jsonObjMI.get("nrr").toString();
-                                mipoints = jsonObjMI.get("points").toString();
-                                miwins = jsonObjMI.get("wins").toString();
+                                JSONObject jsonObjfive= jsonObj.getJSONObject("FIVE");
+                                fivedraw = jsonObjfive.get("draw").toString();
+                                fivelost = jsonObjfive.get("lost").toString();
+                                fivematches = jsonObjfive.get("matches").toString();
+                                fivenrr = jsonObjfive.get("nrr").toString();
+                                fivepoints = jsonObjfive.get("points").toString();
+                                fivewins = jsonObjfive.get("wins").toString();
+                                five=jsonObjfive.get("team").toString();
 
                                 //RCB
-                                JSONObject jsonObjRCB= jsonObj.getJSONObject("RCB");
-                                rcbdraw = jsonObjRCB.get("draw").toString();
-                                rcblost = jsonObjRCB.get("lost").toString();
-                                rcbmatches = jsonObjRCB.get("matches").toString();
-                                rcbnrr = jsonObjRCB.get("nrr").toString();
-                                rcbpoints = jsonObjRCB.get("points").toString();
-                                rcbwins = jsonObjRCB.get("wins").toString();
+                                JSONObject jsonObjsix= jsonObj.getJSONObject("SIX");
+                                sixdraw = jsonObjsix.get("draw").toString();
+                                sixlost = jsonObjsix.get("lost").toString();
+                                sixmatches = jsonObjsix.get("matches").toString();
+                                sixnrr = jsonObjsix.get("nrr").toString();
+                                sixpoints = jsonObjsix.get("points").toString();
+                                sixwins = jsonObjsix.get("wins").toString();
+                                six=jsonObjsix.get("team").toString();
 
                                 //RPS
-                                JSONObject jsonObjRPS= jsonObj.getJSONObject("RPS");
-                                rpsdraw = jsonObjRPS.get("draw").toString();
-                                rpslost = jsonObjRPS.get("lost").toString();
-                                rpsmatches = jsonObjRPS.get("matches").toString();
-                                rpsnrr = jsonObjRPS.get("nrr").toString();
-                                rpspoints = jsonObjRPS.get("points").toString();
-                                rpswins = jsonObjRPS.get("wins").toString();
+                                JSONObject jsonObjseven= jsonObj.getJSONObject("SEVEN");
+                                sevendraw = jsonObjseven.get("draw").toString();
+                                sevenlost = jsonObjseven.get("lost").toString();
+                                sevenmatches = jsonObjseven.get("matches").toString();
+                                sevennrr = jsonObjseven.get("nrr").toString();
+                                sevenpoints = jsonObjseven.get("points").toString();
+                                sevenwins = jsonObjseven.get("wins").toString();
+                                seven=jsonObjseven.get("team").toString();
 
                                 //SRH
-                                JSONObject jsonObjSRH= jsonObj.getJSONObject("SRH");
-                                srhdraw = jsonObjSRH.get("draw").toString();
-                                srhlost = jsonObjSRH.get("lost").toString();
-                                srhmatches = jsonObjSRH.get("matches").toString();
-                                srhnrr = jsonObjSRH.get("nrr").toString();
-                                srhpoints = jsonObjSRH.get("points").toString();
-                                srhwins = jsonObjSRH.get("wins").toString();
+                                JSONObject jsonObjeight= jsonObj.getJSONObject("EIGHT");
+                                eightdraw = jsonObjeight.get("draw").toString();
+                                eightlost = jsonObjeight.get("lost").toString();
+                                eightmatches = jsonObjeight.get("matches").toString();
+                                eightnrr = jsonObjeight.get("nrr").toString();
+                                eightpoints = jsonObjeight.get("points").toString();
+                                eightwins = jsonObjeight.get("wins").toString();
+                                eight=jsonObjeight.get("team").toString();
 
                                 runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
                                         mProgressDialog.dismiss();
                                         //setValues
-                                        teams_dd.setText("DD");
-                                        dd_match.setText(ddmatches);
-                                        dd_won.setText(ddwins);
-                                        dd_lost.setText(ddlost);
-                                        dd_draw.setText(dddraw);
-                                        dd_points.setText(ddpoints);
-                                        dd_nrr.setText(ddnrr);
+                                        teams_one.setText(one);
+                                        one_match.setText(onematches);
+                                        one_won.setText(onewins);
+                                        one_lost.setText(onelost);
+                                        one_draw.setText(onedraw);
+                                        one_points.setText(onepoints);
+                                        one_nrr.setText(onenrr);
 
                                         //setValues
-                                        teams_mi.setText("MI");
-                                        mi_match.setText(mimatches);
-                                        mi_won.setText(miwins);
-                                        mi_lost.setText(milost);
-                                        mi_draw.setText(midraw);
-                                        mi_points.setText(mipoints);
-                                        mi_nrr.setText(minrr);
+                                        teams_two.setText(two);
+                                        two_match.setText(twomatches);
+                                        two_won.setText(twowins);
+                                        two_lost.setText(twolost);
+                                        two_draw.setText(twodraw);
+                                        two_points.setText(twopoints);
+                                        two_nrr.setText(twonrr);
 
                                         //setValues
-                                        teams_srh.setText("SRH");
-                                        srh_match.setText(srhmatches);
-                                        srh_won.setText(srhwins);
-                                        srh_lost.setText(srhlost);
-                                        srh_draw.setText(srhdraw);
-                                        srh_points.setText(srhpoints);
-                                        srh_nrr.setText(srhnrr);
+                                        teams_three.setText(three);
+                                        three_match.setText(threematches);
+                                        three_won.setText(threewins);
+                                        three_lost.setText(threelost);
+                                        three_draw.setText(threedraw);
+                                        three_points.setText(threepoints);
+                                        three_nrr.setText(threenrr);
 
                                         //setValues
-                                        teams_kxip.setText("KXIP");
-                                        kxip_match.setText(punjabmatches);
-                                        kxip_won.setText(punjabwins);
-                                        kxip_lost.setText(punjablost);
-                                        kxip_draw.setText(punjabdraw);
-                                        kxip_points.setText(punjabpoints);
-                                        kxip_nrr.setText(punjabnrr);
+                                        teams_four.setText(four);
+                                        four_match.setText(fourmatches);
+                                        four_won.setText(fourwins);
+                                        four_lost.setText(fourlost);
+                                        four_draw.setText(fourdraw);
+                                        four_points.setText(fourpoints);
+                                        four_nrr.setText(fournrr);
 
                                         //setValues
-                                        teams_kkr.setText("KKR");
-                                        kkr_match.setText(kkrmatches);
-                                        kkr_won.setText(kkrwins);
-                                        kkr_lost.setText(kkrlost);
-                                        kkr_draw.setText(kkrdraw);
-                                        kkr_points.setText(kkrpoints);
-                                        kkr_nrr.setText(kkrnrr);
+                                        teams_five.setText(five);
+                                        five_match.setText(fivematches);
+                                        five_won.setText(fivewins);
+                                        five_lost.setText(fivelost);
+                                        five_draw.setText(fivedraw);
+                                        five_points.setText(fivepoints);
+                                        five_nrr.setText(fivenrr);
 
                                         //setValues
-                                        teams_gl.setText("GL");
-                                        gl_match.setText(glmatches);
-                                        gl_won.setText(glwins);
-                                        gl_lost.setText(gllost);
-                                        gl_draw.setText(gldraw);
-                                        gl_points.setText(glpoints);
-                                        gl_nrr.setText(glnrr);
+                                        teams_six.setText(six);
+                                        six_match.setText(sixmatches);
+                                        six_won.setText(sixwins);
+                                        six_lost.setText(sixlost);
+                                        six_draw.setText(sixdraw);
+                                        six_points.setText(sixpoints);
+                                        six_nrr.setText(sixnrr);
 
                                         //setValues
-                                        teams_rcb.setText("RCB");
-                                        rcb_match.setText(rcbmatches);
-                                        rcb_won.setText(rcbwins);
-                                        rcb_lost.setText(rcblost);
-                                        rcb_draw.setText(rcbdraw);
-                                        rcb_points.setText(rcbpoints);
-                                        rcb_nrr.setText(rcbnrr);
+                                        teams_seven.setText(seven);
+                                        seven_match.setText(sevenmatches);
+                                        seven_won.setText(sevenwins);
+                                        seven_lost.setText(sevenlost);
+                                        seven_draw.setText(sevendraw);
+                                        seven_points.setText(sevenpoints);
+                                        seven_nrr.setText(sevennrr);
 
                                         //setValues
-                                        teams_rps.setText("RPS");
-                                        rps_match.setText(rpsmatches);
-                                        rps_won.setText(rpswins);
-                                        rps_lost.setText(rpslost);
-                                        rps_draw.setText(rpsdraw);
-                                        rps_points.setText(rpspoints);
-                                        rps_nrr.setText(rpsnrr);
+                                        teams_eight.setText(eight);
+                                        eight_match.setText(eightmatches);
+                                        eight_won.setText(eightwins);
+                                        eight_lost.setText(eightlost);
+                                        eight_draw.setText(eightdraw);
+                                        eight_points.setText(eightpoints);
+                                        eight_nrr.setText(eightnrr);
                                     }
                                 });
 
@@ -410,14 +419,14 @@ public class PointsTable extends AppCompatActivity
 
    public void setFont()
     {
-        teams_srh.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
-        teams_dd.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
-        teams_gl.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
-        teams_kkr.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
-        teams_kxip.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
-        teams_rps.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
-        teams_rcb.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
-        teams_mi.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
+        teams_one.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
+        teams_two.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
+        teams_three.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
+        teams_four.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
+        teams_five.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
+        teams_six.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
+        teams_seven.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
+        teams_eight.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Oxygen.otf"));
 
         match_played.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Proxima Nova Light.ttf"));
         match_won.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Proxima Nova Light.ttf"));

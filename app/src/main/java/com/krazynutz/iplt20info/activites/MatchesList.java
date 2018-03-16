@@ -125,7 +125,7 @@ public class MatchesList extends AppCompatActivity
 
 
 
-        new RemoteDataTask().execute();
+        //new RemoteDataTask().execute();
     }
 
     // RemoteDataTask AsyncTask

@@ -192,17 +192,19 @@ public class PlayersActivity extends AppCompatActivity {
     // RemoteDataTask AsyncTask
     private class RemoteDataTask extends AsyncTask<String, Void, String> {
         Storage storage;
-        private ProgressDialog progressDoalog;
+        ProgressDialog progressDoalog;
 
         @Override
         protected void onPreExecute() {
+
+            super.onPreExecute();
+
             progressDoalog = new ProgressDialog(PlayersActivity.this);
             progressDoalog.setMessage("Its Loading....");
             progressDoalog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-            progressDoalog.setIndeterminate(true);
-            progressDoalog.setCancelable(false);
+            /*progressDoalog.setIndeterminate(true);
+            progressDoalog.setCancelable(false);*/
             progressDoalog.show();
-            super.onPreExecute();
 
         }
 

@@ -8,7 +8,7 @@ public class Constants {
     public static final String inn1 = "inn1";
     public static final String inn2 = "inn2";
     public static final String name1 = "name1";
-   public static final String name2 = "name2";
+    public static final String name2 = "name2";
     public static final String runs1 = "runs1";
     public static final String runs2 = "runs2";
 
@@ -24,7 +24,7 @@ public class Constants {
     public static final String score1 = "score1";
     public static final String score2 = "score2";
 
-    public static final String match = "Match";
+
     public static final String result = "Result";
 
     public static final String matchno= "MatchNo";
@@ -40,6 +40,12 @@ public class Constants {
     public static final String Batsmen22="Batsmen22";
     public static final String Bowler21="Bowler21";
     public static final String Bowler22="Bowler22";
+
+    public static final String stadium="Stadium";
+    public static final String match = "Match";
+    public static final String time = "TimeDate";
+    public static final String matchNo = "MatchNo";
+
 
 
 }

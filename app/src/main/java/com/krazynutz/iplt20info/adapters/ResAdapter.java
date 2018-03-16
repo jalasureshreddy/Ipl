@@ -100,7 +100,7 @@ public class ResAdapter extends  RecyclerView.Adapter<ResAdapter.MyViewHolder> i
         holder.txt_date.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-SemiBold.ttf"));
         holder.txt_play.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-SemiBold.ttf"));
         holder.txt_place.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-SemiBold.ttf"));
-        holder.txt_no.setText("Match - " +  ++position);
+        holder.txt_no.setText(matchNo.get(position));
         holder.txt_no.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-SemiBold.ttf"));
         holder.txt_name.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "OpenSans-Semibold.ttf"));
         holder.txt_name1.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "OpenSans-Semibold.ttf"));

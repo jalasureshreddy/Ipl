@@ -41,7 +41,7 @@ public class Results_Activity extends AppCompatActivity
 {
     @BindView(R.id.toolbar)
     Toolbar toolbar;
-    private String[] mdate, mplay, mplace, mname1, mname2;
+    private String mdate, mplay, mplace;
     private List<String> date, play, place;
 
     @BindView(R.id.recycler_viewH)
@@ -92,15 +92,19 @@ public class Results_Activity extends AppCompatActivity
         }
 
 
-        mdate = getResources().getStringArray(R.array.matches_date);
+       /* mdate = getResources().getStringArray(R.array.matches_date);
         mplay = getResources().getStringArray(R.array.match_play);
-        mplace = getResources().getStringArray(R.array.match_venue);
+        mplace = getResources().getStringArray(R.array.match_venue);*/
+
+
         //  mname1 = getResources().getStringArray(R.array.srt_name1);
         //   mname2 = getResources().getStringArray(R.array.srt_name2);
 
-        date = new ArrayList<>(Arrays.asList(mdate));
-        play = new ArrayList<>(Arrays.asList(mplay));
-        place = new ArrayList<>(Arrays.asList(mplace));
+        date = new ArrayList<>();
+        play = new ArrayList<>();
+        place = new ArrayList<>();
+
+
         //  name = new ArrayList<>(Arrays.asList(mname1));
         //  name2 = new ArrayList<>(Arrays.asList(mname2));
 
@@ -109,12 +113,18 @@ public class Results_Activity extends AppCompatActivity
         mAdView.loadAd(adRequest);
 
         dbName = "POINTSTABLE";
-        collection = "TeamResults";
-        docId = "58ca665ee4b07ed8e34c21b2";
+        collection = "MatchResults";
+        docId = "58eb66b0e4b0be582862ff89";
 
         App42API.initialize(getApplicationContext(), Constants.apiKey,
                 Constants.secretKey);
         App42CacheManager.setPolicy(App42CacheManager.Policy.NETWORK_FIRST);
+
+        LinearLayoutManager horizontalLayoutManagaer = new LinearLayoutManager(Results_Activity.this,
+                LinearLayoutManager.VERTICAL, false);
+        viewH.setLayoutManager(horizontalLayoutManagaer);
+        viewH.setHasFixedSize(true);
+        viewH.setFocusableInTouchMode(false);
 
         new RemoteDataTask().execute();
     }
@@ -166,6 +176,18 @@ public class Results_Activity extends AppCompatActivity
 
                             info=new ArrayList<>();
 
+                       mplace=c.getString(Constants.stadium);
+                       mplay=c.getString(Constants.match);
+                       mdate=c.getString(Constants.time);
+  //                     mnumber=c.getString(Constants.matchno);
+
+
+                       date.add(mdate);
+                       play.add(mplay);
+                       place.add(mplace);
+//                       matchnumber.add(mnumber);
+
+
                             res = c.getString(Constants.result);
                             info.add(res);
                             opp1=c.getString(Constants.opp1);
@@ -205,6 +227,16 @@ public class Results_Activity extends AppCompatActivity
                             System.out.println("RRRR===>"  + res);
 
                         }
+
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                verticalAdapter = new ResAdapter(Results_Activity.this,date,play,place,name,name1,name2,match_no,matchinfo);
+                                viewH.setAdapter(verticalAdapter);
+                                verticalAdapter.notifyDataSetChanged();
+                            }
+                        });
+
                     }
                     catch (JSONException e)
                     {
@@ -227,14 +259,10 @@ public class Results_Activity extends AppCompatActivity
         protected void onPostExecute(String str)
         {
             super.onPostExecute(str);
-            LinearLayoutManager horizontalLayoutManagaer = new LinearLayoutManager(Results_Activity.this,
-                                                                    LinearLayoutManager.VERTICAL, false);
-            viewH.setLayoutManager(horizontalLayoutManagaer);
-            viewH.setHasFixedSize(true);
-            viewH.setFocusableInTouchMode(false);
-            verticalAdapter = new ResAdapter(Results_Activity.this,date,play,place,name,name1,name2,match_no,matchinfo);
+
+           /* verticalAdapter = new ResAdapter(Results_Activity.this,date,play,place,name,name1,name2,match_no,matchinfo);
             viewH.setAdapter(verticalAdapter);
-            verticalAdapter.notifyDataSetChanged();
+            verticalAdapter.notifyDataSetChanged();*/
             //mProgressDialog.dismiss();
         }
 
