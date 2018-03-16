@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DLFIPL.iml" filepath="$PROJECT_DIR$/DLFIPL.iml" />
+      <module fileurl="file://E:\Ipl\DLFIPL.iml" filepath="E:\Ipl\DLFIPL.iml" />
+      <module fileurl="file://E:\NewProject\DLFIPL\Ipl.iml" filepath="E:\NewProject\DLFIPL\Ipl.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\Ipl\app\app.iml" filepath="E:\Ipl\app\app.iml" />
     </modules>
   </component>
 </project>

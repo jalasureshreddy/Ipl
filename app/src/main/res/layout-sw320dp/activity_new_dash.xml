@@ -34,11 +34,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.v4.widget.SwipeRefreshLayout
-            android:id="@+id/swipeRefreshLayout"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
         <android.support.v4.widget.NestedScrollView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -51,6 +46,7 @@
 
 
             <android.support.v7.widget.CardView
+                android:visibility="gone"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 card_view:cardCornerRadius="8.0dp"
@@ -297,7 +293,6 @@
 
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
-        </android.support.v4.widget.SwipeRefreshLayout>
 
         <io.github.yavski.fabspeeddial.FabSpeedDial
             android:id="@+id/fab_speed"

@@ -86,7 +86,7 @@ public class New_Dash extends AppCompatActivity implements View.OnClickListener
     TextView descc;
     @BindView(R.id.des)
     TextView dess;
-   @BindView(R.id.swipeRefreshLayout) SwipeRefreshLayout mSwipeRefreshLayout;
+   //@BindView(R.id.swipeRefreshLayout) SwipeRefreshLayout mSwipeRefreshLayout;
 
     boolean doubleBackToExitPressedOnce = false;
     FirebaseAnalytics mFirebaseAnalytics;
@@ -254,7 +254,7 @@ public class New_Dash extends AppCompatActivity implements View.OnClickListener
 
         new RemoteDataTask().execute();
 
-        mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener()
+        /*mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener()
                         {
                             @Override
                             public void onRefresh()
@@ -285,16 +285,16 @@ public class New_Dash extends AppCompatActivity implements View.OnClickListener
                                 } catch (IllegalStateException e){
                                     android.util.Log.i("Damn", "resume error");
                                 }
-                                /*new Handler().postDelayed(new Runnable()
+                                *//*new Handler().postDelayed(new Runnable()
                                 {
                                     @Override
                                     public void run() {
 
 
                                     }
-                                }, 3000);*/
+                                }, 3000);*//*
                             }
-                        });
+                        });*/
     }
 
 
@@ -465,19 +465,6 @@ public class New_Dash extends AppCompatActivity implements View.OnClickListener
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-       /* if (id == R.id.nav_refresh) {
-            //getData(url);
-
-            new RemoteDataTask().execute();
-            live.setText(live_data);
-            descc.setText(desc);
-            dess.setText(des);
-            return true;
-        }
-*/
         return super.onOptionsItemSelected(item);
     }
 

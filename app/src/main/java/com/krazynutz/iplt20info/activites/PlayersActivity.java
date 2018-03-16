@@ -1,5 +1,6 @@
 package com.krazynutz.iplt20info.activites;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.AsyncTask;
@@ -96,7 +97,7 @@ public class PlayersActivity extends AppCompatActivity {
             setSupportActionBar(toolbar);
             ActionBar actionBar = getSupportActionBar();
             if (actionBar != null) {
-                actionBar.setDisplayHomeAsUpEnabled(false);
+                actionBar.setDisplayHomeAsUpEnabled(true);
                 actionBar.setDisplayShowHomeEnabled(false);
                 actionBar.setDisplayShowTitleEnabled(true);
                 actionBar.setDisplayUseLogoEnabled(false);
@@ -108,7 +109,7 @@ public class PlayersActivity extends AppCompatActivity {
         collection = "TeamsData";
         docId = "5a9cfc66e4b0a50447c2bf19";
 
-        Toast.makeText(getApplicationContext(), "Please wait while Loading!", Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(), "Please wait while Loading!", Toast.LENGTH_LONG).show();
 
         int network_status = NetworkUtil.getConnectivityStatus(getApplicationContext());
         if (network_status == 0) {
@@ -191,9 +192,16 @@ public class PlayersActivity extends AppCompatActivity {
     // RemoteDataTask AsyncTask
     private class RemoteDataTask extends AsyncTask<String, Void, String> {
         Storage storage;
+        private ProgressDialog progressDoalog;
 
         @Override
         protected void onPreExecute() {
+            progressDoalog = new ProgressDialog(PlayersActivity.this);
+            progressDoalog.setMessage("Its Loading....");
+            progressDoalog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+            progressDoalog.setIndeterminate(true);
+            progressDoalog.setCancelable(false);
+            progressDoalog.show();
             super.onPreExecute();
 
         }
@@ -300,7 +308,7 @@ public class PlayersActivity extends AppCompatActivity {
         }
 
 
-        public void getResult()
+        private void getResult()
         {
             System.out.println("dbName is " + storage.getDbName());
             System.out.println("collection Name is " + storage.getCollectionName());
@@ -353,11 +361,12 @@ public class PlayersActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        captianText.setText(captian);
+                        progressDoalog.dismiss();
+                        captianText.setText(String.format("%s\u00A9", captian));
                         batsmen.setText("\nBatsmen");
-                        allrounders.setText("\nAllRounders");
+                        allrounders.setText("\nAll Rounders");
                         bowlers.setText("\nBowlers");
-                        keepers.setText("\nWicketKeepers");
+                        keepers.setText("\nWicket Keepers");
                         mAdapter.notifyDataSetChanged();
                         bAdapter.notifyDataSetChanged();
                         aAdapter.notifyDataSetChanged();

@@ -27,6 +27,7 @@ public class Teams_Fragment extends Fragment
     private RecyclerView mRecyclerView;
     private List<String> stringList;
     RecyclerView.Adapter mAdapter;
+
     public static Teams_Fragment newInstance(int position)
     {
         Teams_Fragment localteamsFragment = new Teams_Fragment();

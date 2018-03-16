@@ -8,6 +8,7 @@
         android:id="@+id/player"
         android:textSize="@dimen/text_320dp_lines"
         android:textStyle="bold"
+        android:fontFamily="@font/gotham_book"
         android:textColor="@color/colorWhite"
         android:layout_alignParentTop="true"
         android:layout_width="match_parent"

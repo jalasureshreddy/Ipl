@@ -63,8 +63,24 @@
                 android:id="@+id/place"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/text_480dp_lines"
-                android:text="Hyd"/>
+                android:textSize="@dimen/text_480dp_lines" />
+
+            <View
+                android:layout_marginTop="5dp"
+                android:background="@color/accent_color"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_320dp_lines"
+                android:text=""/>
 
         </LinearLayout>
     </android.support.v7.widget.CardView>

@@ -17,16 +17,18 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-public class TeamMatchList_Adaptor extends  RecyclerView.Adapter<TeamMatchList_Adaptor.MyViewHolder> {
+public class TeamMatchList_Adaptor extends RecyclerView.Adapter<TeamMatchList_Adaptor.MyViewHolder> {
 
-    private ArrayList<String> m_date, m_play, m_place;
+    private ArrayList<String> m_date, m_play, m_place, m_result;
     private Context mcontext;
 
-    public TeamMatchList_Adaptor(Context context, ArrayList<String> date, ArrayList<String> play, ArrayList<String> place) {
+    public TeamMatchList_Adaptor(Context context, ArrayList<String> date, ArrayList<String> play, ArrayList<String> place,
+                                 ArrayList<String> result) {
         mcontext = context;
         m_date = date;
         m_play = play;
         m_place = place;
+        m_result = result;
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
@@ -38,6 +40,8 @@ public class TeamMatchList_Adaptor extends  RecyclerView.Adapter<TeamMatchList_A
         TextView txt_play;
         @BindView(R.id.place)
         TextView txt_place;
+        @BindView(R.id.result)
+        TextView txt_result;
 
 
         public MyViewHolder(View v) {
@@ -61,12 +65,14 @@ public class TeamMatchList_Adaptor extends  RecyclerView.Adapter<TeamMatchList_A
         //holder.txt_time.setText(m_time.get(position));
         holder.txt_play.setText(m_play.get(position));
         holder.txt_place.setText(m_place.get(position));
+        holder.txt_result.setText(m_result.get(position));
 
         holder.txt_date.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-SemiBold.ttf"));
         holder.txt_play.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-SemiBold.ttf"));
-        holder.txt_place.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-SemiBold.ttf"));
+        holder.txt_place.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-Regular.ttf"));
+        holder.txt_result.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-SemiBold.ttf"));
         holder.txt_no.setText("Match - " + ++position);
-        holder.txt_no.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-SemiBold.ttf"));
+        holder.txt_no.setTypeface(Typeface.createFromAsset(mcontext.getAssets(), "JosefinSans-Regular.ttf"));
 
 
     }

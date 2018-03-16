@@ -12,125 +12,125 @@
     </string-array>
 
     <string-array name="matches_date">
-        <item>Wed, 05­Apr-2017, 8:00 PM</item>
-        <item>Thr, 06-Apr-2017, 8:00 PM</item>
-        <item>Fri, 07-Apr-2017, 8:00 PM</item>
-        <item>Sat, 08-Apr-2017, 4:00 PM</item>
-        <item>Sat, 08-Apr-2017, 8:00 PM</item>
-        <item>Sun, 09-Apr-2017, 4:00 PM</item>
-        <item>Sun, 09-Apr-2017, 8:00 PM</item>
-        <item>Mon, 10-Apr-2017, 4:00 PM</item>
-        <item>Tue, 11-Apr-2017, 8:00 PM</item>
-        <item>Wed, 12-Apr-2017, 8:00 PM</item>
-        <item>Thr, 13-Apr-2017, 8:00 PM</item>
-        <item>Fri, 14-Apr-2017, 4:00 PM</item>
-        <item>Fri, 14-Apr-2017, 8:00 PM</item>
-        <item>Sat, 15-Apr-2017, 4:00 PM</item>
-        <item>Sat, 15-Apr-2017, 8:00 PM</item>
-        <item>Sun, 16-Apr-2017, 4:00 PM</item>
-        <item>Sun, 16-Apr-2017, 8:00 PM</item>
-        <item>Mon, 17-Apr-2017, 4:00 PM</item>
-        <item>Mon, 17-Apr-2017, 8:00 PM</item>
-        <item>Tue, 18-Apr-2017, 8:00 PM</item>
-        <item>Wed, 19-Apr-2017, 4:00 PM</item>
-        <item>Thr, 20-Apr-2017, 8:00 PM</item>
-        <item>Fri, 21-Apr-2017, 8:00 PM</item>
-        <item>Sat, 22-Apr-2017, 4:00 PM</item>
-        <item>Sat, 22-Apr-2017, 8:00 PM</item>
-        <item>Sun, 23-Apr-2017, 4:00 PM</item>
-        <item>Sun, 23-Apr-2017, 8:00 PM</item>
-        <item>Mon, 24-Apr-2017, 8:00 PM</item>
-        <item>Tue, 25-Apr-2017, 8:00 PM</item>
-        <item>Wed, 26-Apr-2017, 8:00 PM</item>
-        <item>Thr, 27-Apr-2017, 8:00 PM</item>
-        <item>Fri, 28-Apr-2017, 4:00 PM</item>
-        <item>Fri, 28-Apr-2017, 8:00 PM</item>
-        <item>Sat, 29-Apr-2017, 4:00 PM</item>
-        <item>Sat, 29-Apr-2017, 8:00 PM</item>
-        <item>Sun, 30-Apr-2017, 4:00 PM</item>
-        <item>Sun, 30-Apr-2017, 8:00 PM</item>
-        <item>Mon, 01-May-2017, 4:00 PM</item>
-        <item>Mon, 01-May-2017, 8:00 PM</item>
-        <item>Tue, 02-May-2017, 8:00 PM</item>
-        <item>Wed, 03-May-2017, 8:00 PM</item>
-        <item>Thr, 04-May-2017, 8:00 PM</item>
-        <item>Fri, 05-May-2017, 8:00 PM</item>
-        <item>Sat, 06-May-2017, 4:00 PM</item>
-        <item>Sat, 06-May-2017, 8:00 PM</item>
-        <item>Sun, 07-May-2017, 4:00 PM</item>
-        <item>Sun, 07-May-2017, 8:00 PM</item>
-        <item>Mon, 08-May-2017, 8:00 PM</item>
-        <item>Tue, 09-May-2017, 8:00 PM</item>
-        <item>Wed, 10-May-2017, 8:00 PM</item>
-        <item>Thr, 11-May-2017, 8:00 PM</item>
-        <item>Fri, 12-May-2017, 4:00 PM</item>
-        <item>Sat, 13-May-2017, 4:00 PM</item>
-        <item>Sat, 13-May-2017, 8:00 PM</item>
-        <item>Sun, 14-May-2017, 4:00 PM</item>
-        <item>Sun, 14-May-2017, 8:00 PM</item>
-        <item>Tue, 16-May-2017, 8:00 PM</item>
-        <item>Wed, 17-May-2017, 8:00 PM</item>
-        <item>Fri, 19-May-2017, 8:00 PM</item>
-        <item>Sun, 21-May-2017, 8:00 PM</item>
+        <item>Sat, 07­Apr-2018, 8:00 PM</item>
+        <item>Sun, 08-Apr-2018, 4:00 PM</item>
+        <item>Sun, 08-Apr-2018, 8:00 PM</item>
+        <item>Mon, 09-Apr-2018, 8:00 PM</item>
+        <item>Tue, 10-Apr-2018, 8:00 PM</item>
+        <item>Wed, 11-Apr-2018, 8:00 PM</item>
+        <item>Thu, 12-Apr-2018, 8:00 PM</item>
+        <item>Fri, 13-Apr-2018, 8:00 PM</item>
+        <item>Sat, 14-Apr-2018, 4:00 PM</item>
+        <item>Sat, 14-Apr-2018, 8:00 PM</item>
+        <item>Sun, 15-Apr-2018, 4:00 PM</item>
+        <item>Sun, 15-Apr-2018, 8:00 PM</item>
+        <item>Mon, 16-Apr-2018, 8:00 PM</item>
+        <item>Tue, 17-Apr-2018, 8:00 PM</item>
+        <item>Wed, 18-Apr-2018, 8:00 PM</item>
+        <item>Thu, 19-Apr-2018, 8:00 PM</item>
+        <item>Fri, 20-Apr-2018, 8:00 PM</item>
+        <item>Sat, 21-Apr-2018, 4:00 PM</item>
+        <item>Sat, 21-Apr-2018, 8:00 PM</item>
+        <item>Sun, 22-Apr-2018, 4:00 PM</item>
+        <item>Sun, 22-Apr-2018, 8:00 PM</item>
+        <item>Mon, 23-Apr-2018, 8:00 PM</item>
+        <item>Tue, 24-Apr-2018, 8:00 PM</item>
+        <item>Wed, 25-Apr-2018, 8:00 PM</item>
+        <item>Thu, 26-Apr-2018, 8:00 PM</item>
+        <item>Fri, 27-Apr-2018, 8:00 PM</item>
+        <item>Sat, 28-Apr-2018, 8:00 PM</item>
+        <item>Sun, 29-Apr-2018, 4:00 PM</item>
+        <item>Sun, 29-Apr-2018, 8:00 PM</item>
+        <item>Mon, 30-Apr-2018, 8:00 PM</item>
+        <item>Tue, 01-May-2018, 8:00 PM</item>
+        <item>Wed, 02-May-2018, 8:00 PM</item>
+        <item>Thu, 03-May-2018, 8:00 PM</item>
+        <item>Fri, 04-May-2018, 8:00 PM</item>
+        <item>Sat, 05-May-2018, 4:00 PM</item>
+        <item>Sat, 05-May-2018, 8:00 PM</item>
+        <item>Sun, 06-May-2018, 4:00 PM</item>
+        <item>Sun, 06-May-2018, 8:00 PM</item>
+        <item>Mon, 07-May-2018, 8:00 PM</item>
+        <item>Tue, 08-May-2018, 8:00 PM</item>
+        <item>Wed, 09-May-2018, 8:00 PM</item>
+        <item>Thr, 10-May-2018, 8:00 PM</item>
+        <item>Fri, 11-May-2018, 8:00 PM</item>
+        <item>Sat, 12-May-2018, 4:00 PM</item>
+        <item>Sat, 12-May-2018, 8:00 PM</item>
+        <item>Sun, 13-May-2018, 4:00 PM</item>
+        <item>Sun, 13-May-2018, 8:00 PM</item>
+        <item>Mon, 14-May-2018, 8:00 PM</item>
+        <item>Tue, 15-May-2018, 8:00 PM</item>
+        <item>Wed, 16-May-2018, 8:00 PM</item>
+        <item>Thr, 17-May-2018, 8:00 PM</item>
+        <item>Fri, 18-May-2018, 8:00 PM</item>
+        <item>Sat, 19-May-2018, 4:00 PM</item>
+        <item>Sat, 19-May-2018, 8:00 PM</item>
+        <item>Sun, 20-May-2018, 4:00 PM</item>
+        <item>Sun, 20-May-2018, 8:00 PM</item>
+        <item>Tue, 22-May-2018, 8:00 PM</item>
+        <item>Wed, 23-May-2018, 8:00 PM</item>
+        <item>Fri, 25-May-2018, 8:00 PM</item>
+        <item>Sun, 27-May-2018, 8:00 PM</item>
     </string-array>
 
     <string-array name="match_play">
-        <item>Sunrisers Hyderabad vs Royal Challengers Bangalore</item>
-        <item>Rising Pune Supergiants vs Mumbai Indians</item>
-        <item>Gujarat Lions vs Kolkata Knight Riders</item>
-        <item>Kings XI Punjab vs Rising Pune Supergiants</item>
-        <item>Royal Challengers Bangalore vs Delhi Daredevils</item>
-        <item>Sunrisers Hyderabad vs Gujarat Lions</item>
-        <item>Mumbai Indians vs Kolkata Knight Riders</item>
-        <item>Kings XI Punjab vs Royal Challengers Bangalore</item>
-        <item>Rising Pune Supergiants vs Delhi Daredevils</item>
-        <item>Mumbai Indians vs Sunrisers Hyderabad</item>
-        <item>Kolkata Knight Riders vs Kings XI Punjab</item>
-        <item>Royal Challengers Bangalore vs Mumbai Indians</item>
-        <item>Gujarat Lions vs Rising Pune Supergiants</item>
-        <item>Kolkata Knight Riders vs Sunrisers Hyderabad</item>
+        <item>Mumbai Indians vs Chennai Super Kings</item>
         <item>Delhi Daredevils vs Kings XI Punjab</item>
-        <item>Mumbai Indians vs Gujarat Lions</item>
-        <item>Royal Challengers Bangalore vs Rising Pune Supergiants</item>
-        <item>Delhi Daredevils vs Kolkata Knight Riders</item>
-        <item>Sunrisers Hyderabad vs Kings XI Punjab</item>
-        <item>Gujarat Lions vs Royal Challengers Bangalore</item>
-        <item>Sunrisers Hyderabad vs Delhi Daredevils</item>
-        <item>Kings XI Punjab vs Mumbai Indians</item>
-        <item>Kolkata Knight Riders vs Gujarat Lions</item>
-        <item>Rising Pune Supergiants vs Sunrisers Hyderabad</item>
-        <item>Mumbai Indians vs Delhi Daredevils</item>
-        <item>Gujarat Lions vs Kings XI Punjab</item>
         <item>Kolkata Knight Riders vs Royal Challengers Bangalore</item>
-        <item>Mumbai Indians vs Rising Pune Supergiants</item>
-        <item>Royal Challengers Bangalore vs Sunrisers Hyderabad</item>
-        <item>Rising Pune Supergiants vs Kolkata Knight Riders</item>
-        <item>Royal Challengers Bangalore vs Gujarat Lions</item>
-        <item>Kolkata Knight Riders vs Delhi Daredevils</item>
-        <item>Kings XI Punjab vs Sunrisers Hyderabad</item>
-        <item>Rising Pune Supergiants vs Royal Challengers Bangalore</item>
-        <item>Gujarat Lions vs Mumbai Indians</item>
-        <item>Kings XI Punjab vs Delhi Daredevils</item>
-        <item>Sunrisers Hyderabad vs Kolkata Knight Riders</item>
-        <item>Mumbai Indians vs Royal Challengers Bangalore</item>
-        <item>Rising Pune Supergiants vs Gujarat Lions</item>
-        <item>Delhi Daredevils vs Sunrisers Hyderabad</item>
-        <item>Kolkata Knight Riders vs Rising Pune Supergiants</item>
-        <item>Delhi Daredevils vs Gujarat Lions</item>
-        <item>Royal Challengers Bangalore vs Kings XI Punjab</item>
-        <item>Sunrisers Hyderabad vs Rising Pune Supergiants</item>
-        <item>Mumbai Indians vs Delhi Daredevils</item>
-        <item>Royal Challengers Bangalore vs Kolkata Knight Riders</item>
-        <item>Kings XI Punjab vs Gujarat Lions</item>
+        <item>Sunrisers Hyderabad vs Rajasthan Royals</item>
+        <item>Chennai Super Kings vs Kolkata Knight Riders</item>
+        <item>Rajasthan Royals vs Delhi Daredevils</item>
         <item>Sunrisers Hyderabad vs Mumbai Indians</item>
-        <item>Kings XI Punjab vs Kolkata Knight riders</item>
-        <item>Gujarat Lions vs Delhi Daredevils</item>
-        <item>Mumbai Indians vs Kings XI Punjab</item>
-        <item>Delhi Daredevils vs Rising Pune Supergiants</item>
-        <item>Gujarat Lions vs Sunrisers Hyderabad</item>.
-        <item>Kolkata Knight Riders vs Mumbai Indians</item>
-        <item>Rising Pune Supergiants vs Kings XI Punjab</item>
+        <item>Royal Challengers Bangalore vs Kings XI Punjab</item>
+        <item>Mumbai Indians vs Delhi Daredevils</item>
+        <item>Kolkata Knight Riders vs Sunrisers Hyderabad</item>
+        <item>Royal Challengers Bangalore vs Rajasthan Royals</item>
+        <item>Kings XI Punjab vs Chennai Super Kings</item>
+        <item>Kolkata Knight Riders vs Delhi Daredevils</item>
+        <item>Mumbai Indians vs Royal Challengers Bangalore</item>
+        <item>Rajasthan Royals vs Kolkata Knight Riders</item>
+        <item>Kings XI Punjab vs Sunrisers Hyderabad</item>
+        <item>Chennai Super Kings vs Rajasthan Royals</item>
+        <item>Kolkata Knight Riders vs Kings XI Punjab</item>
         <item>Delhi Daredevils vs Royal Challengers Bangalore</item>
+        <item>Sunrisers Hyderabad vs Chennai Super Kings</item>
+        <item>Rajasthan Royals vs Mumbai Indians</item>
+        <item>Kings XI Punjab vs Delhi Daredevils</item>
+        <item>Mumbai Indians vs Sunrisers Hyderabad</item>
+        <item>Royal Challengers Bangalore vs Chennai Super Kings</item>
+        <item>Sunrisers Hyderabad vs Kings XI Punjab</item>
+        <item>Delhi Daredevils vs Kolkata Knight Riders</item>
+        <item>Chennai Super Kings vs Mumbai Indians</item>
+        <item>Rajasthan Royals vs Sunrisers Hyderabad</item>
+        <item>Royal Challengers Bangalore vs Kolkata Knight Riders</item>
+        <item>Chennai Super Kings vs Delhi Daredevils</item>
+        <item>Royal Challengers Bangalore vs Mumbai Indians</item>
+        <item>Delhi Daredevils vs Rajasthan Royals</item>
+        <item>Kolkata Knight Riders vs Chennai Super Kings</item>
+        <item>Kings XI Punjab vs Mumbai Indians</item>
+        <item>Chennai Super Kings vs Royal Challengers Bangalore</item>
+        <item>Sunrisers Hyderabad vs Delhi Daredevils</item>
+        <item>Mumbai Indians vs Kolkata Knight Riders</item>
+        <item>Kings XI Punjab vs Rajasthan Royals</item>
+        <item>Sunrisers Hyderabad vs Royal Challengers Bangalore</item>
+        <item>Rajasthan Royals vs Kings XI Punjab</item>
+        <item>Kolkata Knight Riders vs Mumbai Indians</item>
+        <item>Delhi Daredevils vs Sunrisers Hyderabad</item>
+        <item>Rajasthan Royals vs Chennai Super Kings</item>
+        <item>Kings XI Punjab vs Kolkata Knight Riders</item>
+        <item>Royal Challengers Bangalore vs Delhi Daredevils</item>
+        <item>Chennai Super Kings vs Sunrisers Hyderabad</item>
+        <item>Mumbai Indians vs Rajasthan Royals</item>
+        <item>Kings XI Punjab vs Royal Challengers Bangalore</item>
+        <item>Kolkata Knight Riders vs Rajasthan Royals</item>
+        <item>Mumbai Indians vs Kings XI Punjab</item>
+        <item>Royal Challengers Bangalore vs Sunrisers Hyderabad</item>
+        <item>Delhi Daredevils vs Chennai Super Kings</item>
+        <item>Rajasthan Royals vs Royal Challengers Bangalore</item>
+        <item>Sunrisers Hyderabad vs Kolkata Knight Riders</item>
+        <item>Delhi Daredevils vs Mumbai Indians</item>
+        <item>Chennai Super Kings vs Kings XI Punjab</item>
         <item>Qualifier 1</item>
         <item>Eliminator</item>
         <item>Qualifier 2</item>
@@ -138,62 +138,62 @@
     </string-array>
 
     <string-array name="srt_name1">
-        <item>SRH</item>
-        <item>RPS</item>
-        <item>GL</item>
-        <item>KXIP</item>
-        <item>RCB</item>
-        <item>SRH</item>
-        <item>MI</item>
-        <item>KXIP</item>
-        <item>RPS</item>
-        <item>MI</item>
-        <item>KKR</item>
-        <item>RCB</item>
-        <item>GL</item>
-        <item>KKR</item>
-        <item>DD</item>
-        <item>MI</item>
-        <item>RCB</item>
-        <item>DD</item>
-        <item>SRH</item>
-        <item>GL</item>
-        <item>SRH</item>
-        <item>KXIP</item>
-        <item>KKR</item>
-        <item>RPS</item>
-        <item>MI</item>
-        <item>GL</item>
-        <item>KKR</item>
-        <item>MI</item>
-        <item>RCB</item>
-        <item>RPS</item>
-        <item>RCB</item>
-        <item>KKR</item>
-        <item>KXIP</item>
-        <item>RPS</item>
-        <item>GL</item>
-        <item>KXIP</item>
-        <item>SRH</item>
-        <item>MI</item>
-        <item>RPS</item>
-        <item>DD</item>
-        <item>KKR</item>
-        <item>DD</item>
-        <item>RCB</item>
-        <item>SRH</item>
-        <item>MI</item>
-        <item>RCB</item>
-        <item>KXIP</item>
-        <item>SRH</item>
-        <item>KXIP</item>
-        <item>GL</item>
         <item>MI</item>
         <item>DD</item>
-        <item>GL</item>
         <item>KKR</item>
-        <item>RPS</item>
+        <item>SRH</item>
+        <item>CSK</item>
+        <item>RR</item>
+        <item>SRH</item>
+        <item>RCB</item>
+        <item>MI</item>
+        <item>KKR</item>
+        <item>RCB</item>
+        <item>KXIP</item>
+        <item>KKR</item>
+        <item>MI</item>
+        <item>RR</item>
+        <item>KXIP</item>
+        <item>CSK</item>
+        <item>KKR</item>
         <item>DD</item>
+        <item>SRH</item>
+        <item>RR</item>
+        <item>KXIP</item>
+        <item>MI</item>
+        <item>RCB</item>
+        <item>SRH</item>
+        <item>DD</item>
+        <item>CSK</item>
+        <item>RR</item>
+        <item>RCB</item>
+        <item>CSK</item>
+        <item>RCB</item>
+        <item>DD</item>
+        <item>KKR</item>
+        <item>KXIP</item>
+        <item>CSK</item>
+        <item>SRH</item>
+        <item>MI</item>
+        <item>KXIP</item>
+        <item>SRH</item>
+        <item>RR</item>
+        <item>KKR</item>
+        <item>DD</item>
+        <item>RR</item>
+        <item>KXIP</item>
+        <item>RCB</item>
+        <item>CSK</item>
+        <item>MI</item>
+        <item>KXIP</item>
+        <item>KKR</item>
+        <item>MI</item>
+        <item>RCB</item>
+        <item>DD</item>
+        <item>RR</item>
+        <item>SRH</item>
+        <item>DD</item>
+        <item>CSK</item>
         <item>TBC</item>
         <item>TBC</item>
         <item>TBC</item>
@@ -201,62 +201,62 @@
     </string-array>
 
     <string-array name="srt_name2">
-        <item>RCB</item>
-        <item>MI</item>
-        <item>KKR</item>
-        <item>RPS</item>
-        <item>DD</item>
-        <item>GL</item>
-        <item>KKR</item>
-        <item>RCB</item>
-        <item>DD</item>
-        <item>SRH</item>
-        <item>KXIP</item>
-        <item>MI</item>
-        <item>RPS</item>
-        <item>SRH</item>
-        <item>KXIP</item>
-        <item>GL</item>
-        <item>RPS</item>
-        <item>KKR</item>
+        <item>CSK</item>
         <item>KXIP</item>
         <item>RCB</item>
+        <item>RR</item>
+        <item>KKR</item>
         <item>DD</item>
         <item>MI</item>
-        <item>GL</item>
-        <item>SRH</item>
+        <item>KXIP</item>
         <item>DD</item>
+        <item>SRH</item>
+        <item>RR</item>
+        <item>CSK</item>
+        <item>DD</item>
+        <item>RCB</item>
+        <item>KKR</item>
+        <item>SRH</item>
+        <item>RR</item>
         <item>KXIP</item>
         <item>RCB</item>
-        <item>RPS</item>
-        <item>SRH</item>
-        <item>KKR</item>
-        <item>GL</item>
-        <item>DD</item>
-        <item>SRH</item>
-        <item>RCB</item>
+        <item>CSK</item>
         <item>MI</item>
         <item>DD</item>
-        <item>KKR</item>
-        <item>RCB</item>
-        <item>GL</item>
         <item>SRH</item>
-        <item>RPS</item>
-        <item>GL</item>
+        <item>CSK</item>
         <item>KXIP</item>
-        <item>RPS</item>
-        <item>DD</item>
         <item>KKR</item>
-        <item>GL</item>
         <item>MI</item>
+        <item>SRH</item>
         <item>KKR</item>
         <item>DD</item>
+        <item>MI</item>
+        <item>RR</item>
+        <item>CSK</item>
+        <item>MI</item>
+        <item>RCB</item>
+        <item>DD</item>
+        <item>KKR</item>
+        <item>RR</item>
+        <item>RCB</item>
         <item>KXIP</item>
-        <item>RPS</item>
+        <item>MI</item>
         <item>SRH</item>
+        <item>CSK</item>
+        <item>KKR</item>
+        <item>DD</item>
+        <item>SRH</item>
+        <item>RR</item>
+        <item>RCB</item>
+        <item>RR</item>
+        <item>KXIP</item>
+        <item>SRH</item>
+        <item>CSK</item>
+        <item>RCB</item>
+        <item>KKR</item>
         <item>MI</item>
         <item>KXIP</item>
-        <item>RCB</item>
         <item>TBC</item>
         <item>TBC</item>
         <item>TBC</item>
@@ -264,66 +264,66 @@
     </string-array>
 
     <string-array name="match_venue">
-        <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
-        <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
-        <item>Saurashtra Cricket Association Stadium, Rajkot</item>
-        <item>Holkar Cricket Stadium, Indore</item>
-        <item>M. Chinnaswamy Stadium, Bengaluru</item>
-        <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
         <item>Wankhede Stadium, Mumbai</item>
-        <item>Holkar Cricket Stadium, Indore</item>
-        <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
+        <item>Feroz Shah Kotla Ground, Delhi</item>
+        <item>Eden Gardens, Kolkata</item>
+        <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
+        <item>M. A. Chidambaram Stadium, Chennai</item>
+        <item>Sawai Mansingh Stadium, Jaipur</item>
+        <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
+        <item>M. Chinnaswamy Stadium, Bengaluru</item>
         <item>Wankhede Stadium, Mumbai</item>
         <item>Eden Gardens, Kolkata</item>
         <item>M. Chinnaswamy Stadium, Bengaluru</item>
-        <item>Saurashtra Cricket Association Stadium, Rajkot</item>
-        <item>Eden Gardens, Kolkata</item>
-        <item>Feroz Shah Kotla Ground, Delhi</item>
-        <item>Wankhede Stadium, Mumbai</item>
-        <item>M. Chinnaswamy Stadium, Bengaluru</item>
-        <item>Feroz Shah Kotla Ground, Delhi</item>
-        <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
-        <item>Saurashtra Cricket Association Stadium, Rajkot</item>
-        <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
         <item>Holkar Cricket Stadium, Indore</item>
         <item>Eden Gardens, Kolkata</item>
-        <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
         <item>Wankhede Stadium, Mumbai</item>
-        <item>Saurashtra Cricket Association Stadium, Rajkot</item>
+        <item>Sawai Mansingh Stadium, Jaipur</item>
+        <item>Holkar Cricket Stadium, Indore</item>
+        <item>M. A. Chidambaram Stadium, Chennai</item>
         <item>Eden Gardens, Kolkata</item>
-        <item>Wankhede Stadium, Mumbai</item>
-        <item>M. Chinnaswamy Stadium, Bengaluru</item>
-        <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
-        <item>M. Chinnaswamy Stadium, Bengaluru</item>
-        <item>Eden Gardens, Kolkata</item>
-        <item>IS Bindra Stadium, Mohali</item>
-        <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
-        <item>Saurashtra Cricket Association Stadium, Rajkot</item>
-        <item>IS Bindra Stadium, Mohali</item>
+        <item>Feroz Shah Kotla Ground, Delhi</item>
         <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
+        <item>Sawai Mansingh Stadium, Jaipur</item>
+        <item>Holkar Cricket Stadium, Indore</item>
         <item>Wankhede Stadium, Mumbai</item>
-        <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
-        <item>Feroz Shah Kotla Ground, Delhi</item>
-        <item>Eden Gardens, Kolkata</item>
-        <item>Feroz Shah Kotla Ground, Delhi</item>
         <item>M. Chinnaswamy Stadium, Bengaluru</item>
         <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
         <item>Feroz Shah Kotla Ground, Delhi</item>
+        <item>M. A. Chidambaram Stadium, Chennai</item>
+        <item>Sawai Mansingh Stadium, Jaipur</item>
         <item>M. Chinnaswamy Stadium, Bengaluru</item>
+        <item>M. A. Chidambaram Stadium, Chennai</item>
+        <item>M. Chinnaswamy Stadium, Bengaluru</item>
+        <item>Feroz Shah Kotla Ground, Delhi</item>
+        <item>Eden Gardens, Kolkata</item>
         <item>IS Bindra Stadium, Mohali</item>
+        <item>M. A. Chidambaram Stadium, Chennai</item>
         <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
-        <item>IS Bindra Stadium, Mohali</item>
-        <item>Green Park, Kanpur</item>
         <item>Wankhede Stadium, Mumbai</item>
-        <item>Feroz Shah Kotla Ground, Delhi</item>
-        <item>Green Park, Kanpur</item>
-        <item>Eden Gardens, Kolkata</item>
-        <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
-        <item>Feroz Shah Kotla Ground, Delhi</item>
-        <item>M.A. Chidambaram Stadium, Chennai</item>
-        <item>M.A. Chidambaram Stadium, Chennai</item>
-        <item>Eden Gardens, Kolkata</item>
+        <item>IS Bindra Stadium, Mohali</item>
         <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
+        <item>Sawai Mansingh Stadium, Jaipur</item>
+        <item>Eden Gardens, Kolkata</item>
+        <item>Feroz Shah Kotla Ground, Delhi</item>
+        <item>Sawai Mansingh Stadium, Jaipur</item>
+        <item>IS Bindra Stadium, Mohali</item>
+        <item>M. Chinnaswamy Stadium, Bengaluru</item>
+        <item>M. A. Chidambaram Stadium, Chennai</item>
+        <item>Wankhede Stadium, Mumbai</item>
+        <item>IS Bindra Stadium, Mohali</item>
+        <item>Eden Gardens, Kolkata</item>
+        <item>Wankhede Stadium, Mumbai</item>
+        <item>M. Chinnaswamy Stadium, Bengaluru</item>
+        <item>Feroz Shah Kotla Ground, Delhi</item>
+        <item>Sawai Mansingh Stadium, Jaipur</item>
+        <item>Rajiv Gandhi Intl. Cricket Stadium, Hyderabad</item>
+        <item>Feroz Shah Kotla Ground, Delhi</item>
+        <item>M. A. Chidambaram Stadium, Chennai</item>
+        <item>Wankhede Stadium, Mumbai</item>
+        <item>TBC</item>
+        <item>TBC</item>
+        <item>Wankhede Stadium, Mumbai</item>
     </string-array>
     
     <string-array name="stadiums">
@@ -331,107 +331,98 @@
         <item>M. Chinnaswamy Stadium, Bengaluru</item>
         <item>Wankhede Stadium, Mumbai</item>
         <item>Eden Gardens, Kolkata</item>
-        <item>Maharashtra Cricket Association Intl. Stadium, Pune</item>
+        <item>Sawai Mansingh Stadium, Jaipur</item>
         <item>Feroz Shah Kotla Ground, Delhi</item>
-        <item>Saurashtra Cricket Association Stadium, Rajkot</item>
         <item>Holkar Cricket Stadium, Indore</item>
         <item>IS Bindra Stadium, Mohali</item>
-        <item>Green Park, Kanpur</item>
         <item>M.A. Chidambaram Stadium, Chennai</item>
     </string-array>
 
 
     <string-array name="hyd_std">
-        <item>Wed, 05-Apr 2017, 8:00 PM "\n" Sunrisers Hyderabad vs Royal Challengers Bangalore</item>
-        <item>Sun, 09-Apr 2017, 4:00 PM "\n" Sunrisers Hyderabad vs Gujarat Lions</item>
-        <item>Mon, 17-Apr 2017, 8:00 PM "\n" Sunrisers Hyderabad vs Kings XI Punjab</item>
-        <item>Wed, 19-Apr 2017, 4:00 PM "\n" Sunrisers Hyderabad vs Delhi Daredevils</item>
-        <item>Sun, 30-Apr 2017, 8:00 PM "\n" Sunrisers Hyderabad vs Kolkata Knight Riders</item>
-        <item>Sat, 06-May 2017, 4:00 PM "\n" Sunrisers Hyderabad vs Rising Pune Supergiants</item>
-        <item>Mon, 08-May 2017, 8:00 PM "\n" Sunrisers Hyderabad vs Mumbai Indians</item>
-        <item>Sun, 21-May 2017, 8:00 PM "\n" Finals</item>
+        <item>Mon, 09-Apr 2018, 8:00 PM "\n" Sunrisers Hyderabad vs Rajasthan Royals</item>
+        <item>Thu, 12-Apr 2018, 8:00 PM "\n" Sunrisers Hyderabad vs Mumbai Indians</item>
+        <item>Sun, 22-Apr 2018, 4:00 PM "\n" Sunrisers Hyderabad vs Chennai Super Kings</item>
+        <item>Thu, 26-Apr 2018, 8:00 PM "\n" Sunrisers Hyderabad vs Kings XI Punjab</item>
+        <item>Sat, 05-May 2018, 8:00 PM "\n" Sunrisers Hyderabad vs Delhi Daredevils</item>
+        <item>Mon, 07-May 2018, 8:00 PM "\n" Sunrisers Hyderabad vs Royal Challengers Bangalore</item>
+        <item>Sat, 19-May 2018, 8:00 PM "\n" Sunrisers Hyderabad vs Kolkata Knight Riders</item>
     </string-array>
 
     <string-array name="beng_std">
-        <item>Sat, 08-Apr 2017, 8:00 PM "\n" Royal Challengers Bangalore vs Delhi Daredevils</item>
-        <item>Fri, 14-Apr 2017, 4:00 PM "\n" Royal Challengers Bangalore vs Mumbai Indians</item>
-        <item>Sun, 16-Apr 2017, 8:00 PM "\n" Royal Challengers Bangalore vs Rising Pune Supergiants</item>
-        <item>Tue, 25-Apr 2017, 8:00 PM "\n" Royal Challengers Bangalore vs Sunrisers Hyderabad</item>
-        <item>Thr, 27-Apr 2017, 8:00 PM "\n" Royal Challengers Bangalore vs Gujarat Lions</item>
-        <item>Fri, 05-May 2017, 8:00 PM "\n" Royal Challengers Bangalore vs Kings XI Punjab</item>
-        <item>Sun, 07-May 2017, 4:00 PM "\n" Royal Challengers Bangalore vs Kolkata Knight Riders</item>
+        <item>Fri, 13-Apr 2018, 8:00 PM "\n" Royal Challengers Bangalore vs Kings XI Punjab</item>
+        <item>Sun, 15-Apr 2018, 4:00 PM "\n" Royal Challengers Bangalore vs Rajasthan Royals</item>
+        <item>Wed, 25-Apr 2018, 8:00 PM "\n" Royal Challengers Bangalore vs Chennai Super Kings</item>
+        <item>Sun, 29-Apr 2018, 8:00 PM "\n" Royal Challengers Bangalore vs Kolkata Knight Riders</item>
+        <item>Tue, 01-May 2018, 8:00 PM "\n" Royal Challengers Bangalore vs Mumbai Indians</item>
+        <item>Sat, 12-May 2018, 8:00 PM "\n" Royal Challengers Bangalore vs Delhi Daredevils</item>
+        <item>Thu, 17-May 2018, 8:00 PM "\n" Royal Challengers Bangalore vs Sunrisers Hyderabad</item>
     </string-array>
 
     <string-array name="mum_std">
-        <item>Sun, 09-Apr 2017, 8:00 PM "\n" Mumbai Indians vs Kolkata Knight Riders</item>
-        <item>Wed, 12-Apr 2017, 8:00 PM "\n" Mumbai Indians vs Sunrisers Hyderabad</item>
-        <item>Sun, 16-Apr 2017, 4:00 PM "\n" Mumbai Indians vs Gujarat Lions</item>
-        <item>Mon, 24-Apr 2017, 8:00 PM "\n" Mumbai Indians vs Rising Pune Supergiants</item>
-        <item>Mon, 01-May 2017, 4:00 PM "\n" Mumbai Indians vs Royal Challengers Bangalore</item>
-        <item>Sat, 06-May 2017, 8:00 PM "\n" Mumbai Indians vs Delhi Daredevils</item>
-        <item>Thr, 11-May 2017, 8:00 PM "\n" Mumbai Indians vs Kings XI Punjab</item>
+        <item>Sat, 07-Apr 2018, 8:00 PM "\n" Mumbai Indians vs Chennai Super Kings</item>
+        <item>Sat, 14-Apr 2018, 4:00 PM "\n" Mumbai Indians vs Delhi Daredevils</item>
+        <item>Tue, 17-Apr 2018, 8:00 PM "\n" Mumbai Indians vs Royal Challengers Bangalore</item>
+        <item>Tue, 24-Apr 2018, 8:00 PM "\n" Mumbai Indians vs Sunrisers Hyderabad</item>
+        <item>Sun, 06-May 2018, 4:00 PM "\n" Mumbai Indians vs Kolkata Knight Riders</item>
+        <item>Sun, 13-May 2018, 8:00 PM "\n" Mumbai Indians vs Rajasthan Royals</item>
+        <item>Wed, 16-May 2018, 8:00 PM "\n" Mumbai Indians vs Kings XI Punjab</item>
+        <item>Tue, 22-May 2018, 8:00 PM "\n" Qualifier 1 TBC vs TBC</item>
+        <item>Sun, 27-May 2018, 8:00 PM "\n" Final TBC vs TBC</item>
     </string-array>
 
     <string-array name="kol_std">
-        <item>Thr, 13-Apr 2017, 8:00 PM "\n" Kolkata Knight Riders vs Kings XI Punjab</item>
-        <item>Sat, 15-Apr 2017, 4:00 PM "\n" Kolkata Knight Riders vs Sunrisers Hyderabad</item>
-        <item>Fri, 21-Apr 2017, 8:00 PM "\n" Kolkata Knight Riders vs Gujarat Lions</item>
-        <item>Sun, 23-Apr 2017, 8:00 PM "\n" Kolkata Knight Riders vs Royal Challengers Bangalore</item>
-        <item>Fri, 28-Apr 2017, 4:00 PM "\n" Kolkata Knight Riders vs Delhi Daredevils</item>
-        <item>Wed, 03-May 2017, 8:00 PM "\n" Kolkata Knight Riders vs Rising Pune Supergiants</item>
-        <item>Sat, 13-May 2017, 8:00 PM "\n" Kolkata Knight Riders vs Mumbai Indians</item>
-        <item>Fri, 19-May 2017, 8:00 PM "\n" Qualifier 2</item>
+        <item>Sun, 08-Apr 2018, 8:00 PM "\n" Kolkata Knight Riders vs Royal Challengers Bangalore</item>
+        <item>Sat, 14-Apr 2018, 8:00 PM "\n" Kolkata Knight Riders vs Sunrisers Hyderabad</item>
+        <item>Mon, 16-Apr 2018, 8:00 PM "\n" Kolkata Knight Riders vs Delhi Daredevils</item>
+        <item>Sat, 21-Apr 2018, 4:00 PM "\n" Kolkata Knight Riders vs Kings XI Punjab</item>
+        <item>Thu, 03-May 2018, 8:00 PM "\n" Kolkata Knight Riders vs Chennai Super Kings</item>
+        <item>Wed, 09-May 2018, 8:00 PM "\n" Kolkata Knight Riders vs Mumbai Indians</item>
+        <item>Tue, 15-May 2018, 8:00 PM "\n" Kolkata Knight Riders vs Rajasthan Royals</item>
     </string-array>
 
-    <string-array name="pune_std">
-        <item>Thr, 06-Apr 2017, 8:00 PM "\n" Rising Pune Supergiants vs Mumbai Indians</item>
-        <item>Tue, 11-Apr 2017, 8:00 PM "\n" Rising Pune Supergiants vs Delhi Daredevils</item>
-        <item>Sat, 22-Apr 2017, 8:00 PM "\n" Rising Pune Supergiants vs Sunrisers Hyderabad</item>
-        <item>Wed, 26-Apr 2017, 8:00 PM "\n" Rising Pune Supergiants vs Kolkata Knight Riders</item>
-        <item>Sat, 29-Apr 2017, 4:00 PM "\n" Rising Pune Supergiants vs Royal Challengers Bangalore</item>
-        <item>Mon, 01-May 2017, 8:00 PM "\n" Rising Pune Supergiants vs Gujarat Lions</item>
-        <item>Sun, 14-May 2017, 4:00 PM "\n" Rising Pune Supergiants vs Kings XI Punjab</item>
+    <string-array name="jai_std">
+        <item>Wed, 11-Apr 2018, 8:00 PM "\n" Rajasthan Royals vs Delhi Daredevils</item>
+        <item>Wed, 18-Apr 2018, 8:00 PM "\n" Rajasthan Royals vs Kolkata Knight Riders</item>
+        <item>Sun, 22-Apr 2018, 8:00 PM "\n" Rajasthan Royals vs Mumbai Indians</item>
+        <item>Sun, 29-Apr 2018, 4:00 PM "\n" Rajasthan Royals vs Sunrisers Hyderabad</item>
+        <item>Tue, 08-May 2018, 8:00 PM "\n" Rajasthan Royals vs Kings XI Punjab</item>
+        <item>Fri, 11-May 2018, 8:00 PM "\n" Rajasthan Royals vs Chennai Super Kings</item>
+        <item>Sat, 19-May 2018, 4:00 PM "\n" Rajasthan Royals vs Royal Challengers Bangalore</item>
     </string-array>
 
     <string-array name="delhi_std">
-        <item>Sat, 15-Apr 2017, 8:00 PM "\n" Delhi Daredevils vs Kings XI Punjab</item>
-        <item>Mon, 17-Apr 2017, 4:00 PM "\n" Delhi Daredevils vs Kolkata Knight Riders</item>
-        <item>Sat, 22-Apr 2017, 4:00 PM "\n" Delhi Daredevils vs Mumbai Indians</item>
-        <item>Tue, 02-May 2017, 8:00 PM "\n" Delhi Daredevils vs Sunrisers Hyderabad</item>
-        <item>Thr, 04-May 2017, 8:00 PM "\n" Delhi Daredevils vs Gujarat Lions</item>
-        <item>Fri, 12-May 2017, 4:00 PM "\n" Delhi Daredevils vs Rising Pune Supergiants</item>
-        <item>Sun, 14-May 2017, 8:00 PM "\n" Delhi Daredevils vs Royal Challengers Bangalore</item>
+        <item>Sun, 08-Apr 2018, 4:00 PM "\n" Delhi Daredevils vs Kings XI Punjab</item>
+        <item>Sat, 21-Apr 2018, 8:00 PM "\n" Delhi Daredevils vs Royal Challengers Bangalore</item>
+        <item>Fri, 27-Apr 2018, 8:00 PM "\n" Delhi Daredevils vs Kolkata Knight Riders</item>
+        <item>Wed, 02-May 2018, 8:00 PM "\n" Delhi Daredevils vs Rajasthan Royals</item>
+        <item>Thr, 10-May 2018, 8:00 PM "\n" Delhi Daredevils vs Sunrisers Hyderabad</item>
+        <item>Fri, 18-May 2018, 8:00 PM "\n" Delhi Daredevils vs Chennai Super Kings</item>
+        <item>Sun, 20-May 2018, 4:00 PM "\n" Delhi Daredevils vs Mumbai Indians</item>
     </string-array>
 
-    <string-array name="raj_std">
-        <item>Fri, 07-Apr 2017, 8:00 PM "\n" Gujarat Lions vs Kolkata Knight Riders</item>
-        <item>Fri, 14-Apr 2017, 8:00 PM "\n" Gujarat Lions vs Rising Pune Supergiants</item>
-        <item>Tue, 18-Apr 2017, 8:00 PM "\n" Gujarat Lions vs Royal Challengers Bangalore</item>
-        <item>Sun, 23-Apr 2017, 4:00 PM "\n" Gujarat Lions vs Kings XI Punjab</item>
-        <item>Sat, 29-Apr 2017, 8:00 PM "\n" Gujarat Lions vs Mumbai Indians</item>
-    </string-array>
 
     <string-array name="ind_std">
-        <item>Sat, 08-Apr 2017, 4:00 PM "\n" Kings XI Punjab vs Rising Pune Supergiants</item>
-        <item>Mon, 10-Apr 2017, 4:00 PM "\n" Kings XI Punjab vs Royal Challengers Bangalore</item>
-        <item>Thr, 20-Apr 2017, 8:00 PM "\n" Kings XI Punjab vs Mumbai Indians</item>
+        <item>Sun, 15-Apr 2018, 8:00 PM "\n" Kings XI Punjab vs Chennai Super Kings</item>
+        <item>Thu, 19-Apr 2018, 8:00 PM "\n" Kings XI Punjab vs Sunrisers Hyderabad</item>
+        <item>Mon, 23-Apr 2018, 8:00 PM "\n" Kings XI Punjab vs Delhi Daredevils</item>
     </string-array>
 
     <string-array name="moh_std">
-        <item>Fri, 28-Apr 2017, 8:00 PM "\n" Kings XI Punjab vs Sunrisers Hyderabad</item>
-        <item>Sun, 30-Apr 2017, 4:00 PM "\n" Kings XI Punjab vs Delhi Daredevils</item>
-        <item>Sun, 07-May 2017, 8:00 PM "\n" Kings XI Punjab vs Gujarat Lions</item>
-        <item>Tue, 09-May 2017, 8:00 PM "\n" Kings XI Punjab vs Kolkata Knight riders</item>
-    </string-array>
-
-    <string-array name="kan_std">
-        <item>Wed, 10-May 2017, 8:00 PM "\n" Gujarat Lions vs Delhi Daredevils</item>
-        <item>Sat, 13-May 2017, 4:00 PM "\n" Gujarat Lions vs Sunrisers Hyderabad</item>
+        <item>Fri, 04-May 2018, 8:00 PM "\n" Kings XI Punjab vs Mumbai Indians</item>
+        <item>Sun, 06-May 2018, 8:00 PM "\n" Kings XI Punjab vs Rajasthan Royals</item>
+        <item>Sat, 12-May 2018, 4:00 PM "\n" Kings XI Punjab vs Kolkata Knight Riders</item>
+        <item>Mon, 14-May 2018, 8:00 PM "\n" Kings XI Punjab vs Royal Challengers Bangalore</item>
     </string-array>
 
     <string-array name="chen_std">
-        <item>Tue, 16-May 2017, 8:00 PM "\n" Qualifier 1 TBC vs TBC</item>
-        <item>Wed, 17-May 2017, 8:00 PM "\n" Eliminator TBC vs TBC</item>
+        <item>Tue, 10-Apr 2018, 8:00 PM "\n" Chennai Super Kings vs Kolkata Knight Riders</item>
+        <item>Fri, 20-Apr 2018, 8:00 PM "\n" Chennai Super Kings vs Rajasthan Royals</item>
+        <item>Sat, 28-Apr 2018, 8:00 PM "\n" Chennai Super Kings vs Mumbai Indians</item>
+        <item>Mon, 30-Apr 2018, 8:00 PM "\n" Chennai Super Kings vs Delhi Daredevils</item>
+        <item>Sat, 05-May 2018, 4:00 PM "\n" Chennai Super Kings vs Royal Challengers Bangalore</item>
+        <item>Sun, 13-May 2018, 4:00 PM "\n" Chennai Super Kings vs Sunrisers Hyderabad</item>
+        <item>Sun, 20-May 2018, 8:00 PM "\n" Chennai Super Kings vs Kings XI Punjab</item>
     </string-array>
 
 
@@ -439,8 +430,8 @@
         <item>Sunrisers Hyderabad</item>
         <item>Mumbai Indians</item>
         <item>Royal Challengers</item>
-        <item>Rising Pune</item>
-        <item>Gujarat Lions</item>
+        <item>Chennai Super Kings</item>
+        <item>Rajasthan Royals</item>
         <item>Delhi Daredevils</item>
         <item>Kings XI Punjab</item>
         <item>Knight Riders</item>
@@ -745,25 +736,25 @@
 
     <string-array name="players_matches">
         <item>Players</item>
-        <item>Matches</item>
+        <item>Fixtures</item>
     </string-array>
 
 
     <string-array name="srh_date">
-        <item>Wed, 05-Apr 2017, 8:00 PM</item>
-        <item>Sun, 09-Apr 2017, 4:00 PM</item>
-        <item>Wed, 12-Apr 2017, 8:00 PM</item>
-        <item>Sat, 15-Apr 2017, 4:00 PM</item>
-        <item>Mon, 17-Apr 2017, 8:00 PM</item>
-        <item>Wed, 19-Apr 2017, 4:00 PM</item>
-        <item>Sat, 22-Apr 2017, 8:00 PM</item>
-        <item>Tue, 25-Apr 2017, 8:00 PM</item>
-        <item>Fri, 28-Apr 2017, 8:00 PM</item>
-        <item>Sun, 30-Apr 2017, 8:00 PM</item>
-        <item>Tue, 02-May 2017, 8:00 PM</item>
-        <item>Sat, 06-May 2017, 4:00 PM</item>
-        <item>Mon, 08-May 2017, 8:00 PM</item>
-        <item>Sat, 13-May 2017, 4:00 PM</item>
+        <item>Wed, 05-Apr 2018, 8:00 PM</item>
+        <item>Sun, 09-Apr 2018, 4:00 PM</item>
+        <item>Wed, 12-Apr 2018, 8:00 PM</item>
+        <item>Sat, 15-Apr 2018, 4:00 PM</item>
+        <item>Mon, 17-Apr 2018, 8:00 PM</item>
+        <item>Wed, 19-Apr 2018, 4:00 PM</item>
+        <item>Sat, 22-Apr 2018, 8:00 PM</item>
+        <item>Tue, 25-Apr 2018, 8:00 PM</item>
+        <item>Fri, 28-Apr 2018, 8:00 PM</item>
+        <item>Sun, 30-Apr 2018, 8:00 PM</item>
+        <item>Tue, 02-May 2018, 8:00 PM</item>
+        <item>Sat, 06-May 2018, 4:00 PM</item>
+        <item>Mon, 08-May 2018, 8:00 PM</item>
+        <item>Sat, 13-May 2018, 4:00 PM</item>
     </string-array>
     <string-array name="srh_match_play">
         <item>Sunrisers Hyderabad vs Royal Challengers Bangalore</item>
@@ -800,20 +791,20 @@
 
 
     <string-array name="mi_date">
-        <item>Thr, 06-Apr 2017, 8:00 PM</item>
-        <item>Sun, 09-Apr 2017, 8:00 PM</item>
-        <item>Wed, 12-Apr 2017, 8:00 PM</item>
-        <item>Fri, 14-Apr 2017, 4:00 PM</item>
-        <item>Sun, 16-Apr 2017, 4:00 PM</item>
-        <item>Thr, 20-Apr 2017, 8:00 PM</item>
-        <item>Sat, 22-Apr 2017, 4:00 PM</item>
-        <item>Mon, 24-Apr 2017, 8:00 PM</item>
-        <item>Sat, 29-Apr 2017, 8:00 PM</item>
-        <item>Mon, 01-May 2017, 4:00 PM</item>
-        <item>Sat, 06-May 2017, 8:00 PM</item>
-        <item>Mon, 08-May 2017, 8:00 PM</item>
-        <item>Thr, 11-May 2017, 8:00 PM</item>
-        <item>Sat, 13-May 2017, 8:00 PM</item>
+        <item>Thr, 06-Apr 2018, 8:00 PM</item>
+        <item>Sun, 09-Apr 2018, 8:00 PM</item>
+        <item>Wed, 12-Apr 2018, 8:00 PM</item>
+        <item>Fri, 14-Apr 2018, 4:00 PM</item>
+        <item>Sun, 16-Apr 2018, 4:00 PM</item>
+        <item>Thr, 20-Apr 2018, 8:00 PM</item>
+        <item>Sat, 22-Apr 2018, 4:00 PM</item>
+        <item>Mon, 24-Apr 2018, 8:00 PM</item>
+        <item>Sat, 29-Apr 2018, 8:00 PM</item>
+        <item>Mon, 01-May 2018, 4:00 PM</item>
+        <item>Sat, 06-May 2018, 8:00 PM</item>
+        <item>Mon, 08-May 2018, 8:00 PM</item>
+        <item>Thr, 11-May 2018, 8:00 PM</item>
+        <item>Sat, 13-May 2018, 8:00 PM</item>
     </string-array>
     <string-array name="mi_match_play">
         <item>Rising Pune Supergiants v Mumbai Indians</item>
@@ -848,20 +839,20 @@
         <item>Kolkata</item>
     </string-array>
     <string-array name="rcb_date">
-        <item>Wed, 05-Apr 2017, 8:00 PM</item>
-        <item>Sat, 08-Apr 2017, 8:00 PM</item>
-        <item>Mon, 10-Apr 2017, 4:00 PM</item>
-        <item>Fri, 14-Apr 2017, 4:00 PM</item>
-        <item>Sun, 16-Apr 2017, 8:00 PM</item>
-        <item>Tue, 18-Apr 2017, 8:00 PM</item>
-        <item>Sun, 23-Apr 2017, 8:00 PM</item>
-        <item>Tue, 25-Apr 2017, 8:00 PM</item>
-        <item>Thr, 27-Apr 2017, 8:00 PM</item>
-        <item>Sat, 29-Apr 2017, 4:00 PM</item>
-        <item>Mon, 01-May 2017, 4:00 PM</item>
-        <item>Fri, 05-May 2017, 8:00 PM</item>
-        <item>Sun, 07-May 2017, 4:00 PM</item>
-        <item>Sun, 14-May 2017, 8:00 PM</item>
+        <item>Wed, 05-Apr 2018, 8:00 PM</item>
+        <item>Sat, 08-Apr 2018, 8:00 PM</item>
+        <item>Mon, 10-Apr 2018, 4:00 PM</item>
+        <item>Fri, 14-Apr 2018, 4:00 PM</item>
+        <item>Sun, 16-Apr 2018, 8:00 PM</item>
+        <item>Tue, 18-Apr 2018, 8:00 PM</item>
+        <item>Sun, 23-Apr 2018, 8:00 PM</item>
+        <item>Tue, 25-Apr 2018, 8:00 PM</item>
+        <item>Thr, 27-Apr 2018, 8:00 PM</item>
+        <item>Sat, 29-Apr 2018, 4:00 PM</item>
+        <item>Mon, 01-May 2018, 4:00 PM</item>
+        <item>Fri, 05-May 2018, 8:00 PM</item>
+        <item>Sun, 07-May 2018, 4:00 PM</item>
+        <item>Sun, 14-May 2018, 8:00 PM</item>
     </string-array>
     <string-array name="rcb_match_play">
         <item>Sunrisers Hyderabad v Royal Challengers Bangalore</item>
@@ -897,20 +888,20 @@
     </string-array>
 
     <string-array name="rps_date">
-        <item>Thr, 06-Apr 2017, 8:00 PM</item>
-        <item>Sat, 08-Apr 2017, 4:00 PM</item>
-        <item>Tue, 11-Apr 2017, 8:00 PM</item>
-        <item>Fri, 14-Apr 2017, 8:00 PM</item>
-        <item>Sat, 16-Apr 2017, 8:00 PM</item>
-        <item>Sat, 22-Apr 2017, 8:00 PM</item>
-        <item>Mon, 24-Apr 2017, 8:00 PM</item>
-        <item>Wed, 26-Apr 2017, 8:00 PM</item>
-        <item>Sat, 29-Apr 2017, 4:00 PM</item>
-        <item>Mon, 01-May 2017, 8:00 PM</item>
-        <item>Wed, 03-May 2017, 8:00 PM</item>
-        <item>Sat, 06-May 2017, 4:00 PM</item>
-        <item>Fri, 12-May 2017, 4:00 PM</item>
-        <item>Sun, 14-May 2017, 4:00 PM</item>
+        <item>Thr, 06-Apr 2018, 8:00 PM</item>
+        <item>Sat, 08-Apr 2018, 4:00 PM</item>
+        <item>Tue, 11-Apr 2018, 8:00 PM</item>
+        <item>Fri, 14-Apr 2018, 8:00 PM</item>
+        <item>Sat, 16-Apr 2018, 8:00 PM</item>
+        <item>Sat, 22-Apr 2018, 8:00 PM</item>
+        <item>Mon, 24-Apr 2018, 8:00 PM</item>
+        <item>Wed, 26-Apr 2018, 8:00 PM</item>
+        <item>Sat, 29-Apr 2018, 4:00 PM</item>
+        <item>Mon, 01-May 2018, 8:00 PM</item>
+        <item>Wed, 03-May 2018, 8:00 PM</item>
+        <item>Sat, 06-May 2018, 4:00 PM</item>
+        <item>Fri, 12-May 2018, 4:00 PM</item>
+        <item>Sun, 14-May 2018, 4:00 PM</item>
     </string-array>
 
     <string-array name="rps_match_play">
@@ -948,20 +939,20 @@
     </string-array>
 
     <string-array name="gl_date">
-        <item>Fri, 07-Apr 2017, 8:00 PM</item>
-        <item>Sun, 09-Apr 2017, 4:00 PM</item>
-        <item>Fri, 14-Apr 2017, 8:00 PM</item>
-        <item>Sun, 16-Apr 2017, 4:00 PM</item>
-        <item>Tue, 18-Apr 2017, 8:00 PM</item>
-        <item>Fri, 21-Apr 2017, 8:00 PM</item>
-        <item>Sun, 23-Apr 2017, 4:00 PM</item>
-        <item>Thr, 27-Apr 2017, 8:00 PM</item>
-        <item>Sat, 29-Apr 2017, 8:00 PM</item>
-        <item>Mon, 01-May 2017, 8:00 PM</item>
-        <item>Thr, 04-May 2017, 8:00 PM</item>
-        <item>Sun, 07-May 2017, 8:00 PM</item>
-        <item>Wed, 10-May 2017, 8:00 PM</item>
-        <item>Sat, 13-May 2017, 4:00 PM</item>
+        <item>Fri, 07-Apr 2018, 8:00 PM</item>
+        <item>Sun, 09-Apr 2018, 4:00 PM</item>
+        <item>Fri, 14-Apr 2018, 8:00 PM</item>
+        <item>Sun, 16-Apr 2018, 4:00 PM</item>
+        <item>Tue, 18-Apr 2018, 8:00 PM</item>
+        <item>Fri, 21-Apr 2018, 8:00 PM</item>
+        <item>Sun, 23-Apr 2018, 4:00 PM</item>
+        <item>Thr, 27-Apr 2018, 8:00 PM</item>
+        <item>Sat, 29-Apr 2018, 8:00 PM</item>
+        <item>Mon, 01-May 2018, 8:00 PM</item>
+        <item>Thr, 04-May 2018, 8:00 PM</item>
+        <item>Sun, 07-May 2018, 8:00 PM</item>
+        <item>Wed, 10-May 2018, 8:00 PM</item>
+        <item>Sat, 13-May 2018, 4:00 PM</item>
     </string-array>
 
     <string-array name="gl_match_play">
@@ -1000,20 +991,20 @@
     </string-array>
 
     <string-array name="dd_date">
-        <item>Sat, 08-Apr 2017, 8:00 PM</item>
-        <item>Tue, 11-Apr 2017, 8:00 PM</item>
-        <item>Sat, 15-Apr 2017, 8:00 PM</item>
-        <item>Mon, 17-Apr 2017, 4:00 PM</item>
-        <item>Wed, 19-Apr 2017, 4:00 PM</item>
-        <item>Sat, 22-Apr 2017, 4:00 PM</item>
-        <item>Fri, 28-Apr 2017, 4:00 PM</item>
-        <item>Sun, 30-Apr 2017, 4:00 PM</item>
-        <item>Tue, 02-May 2017, 8:00 PM</item>
-        <item>Thr, 04-May 2017, 8:00 PM</item>
-        <item>Sat, 06-May 2017, 8:00 PM</item>
-        <item>Wed, 10-May 2017, 8:00 PM</item>
-        <item>Fri, 12-May 2017, 4:00 PM</item>
-        <item>Sun, 14-May 2017, 8:00 PM</item>
+        <item>Sat, 08-Apr 2018, 8:00 PM</item>
+        <item>Tue, 11-Apr 2018, 8:00 PM</item>
+        <item>Sat, 15-Apr 2018, 8:00 PM</item>
+        <item>Mon, 17-Apr 2018, 4:00 PM</item>
+        <item>Wed, 19-Apr 2018, 4:00 PM</item>
+        <item>Sat, 22-Apr 2018, 4:00 PM</item>
+        <item>Fri, 28-Apr 2018, 4:00 PM</item>
+        <item>Sun, 30-Apr 2018, 4:00 PM</item>
+        <item>Tue, 02-May 2018, 8:00 PM</item>
+        <item>Thr, 04-May 2018, 8:00 PM</item>
+        <item>Sat, 06-May 2018, 8:00 PM</item>
+        <item>Wed, 10-May 2018, 8:00 PM</item>
+        <item>Fri, 12-May 2018, 4:00 PM</item>
+        <item>Sun, 14-May 2018, 8:00 PM</item>
     </string-array>
 
     <string-array name="dd_match_play">
@@ -1051,20 +1042,20 @@
     </string-array>
 
     <string-array name="kp_date">
-        <item>Sat, 08-Apr 2017, 4:00 PM</item>
-        <item>Mon, 10-Apr 2017, 4:00 PM</item>
-        <item>Thr, 13-Apr 2017, 8:00 PM</item>
-        <item>Sat, 15-Apr 2017, 8:00 PM</item>
-        <item>Mon, 17-Apr 2017, 8:00 PM</item>
-        <item>Thr, 20-Apr 2017, 8:00 PM</item>
-        <item>Sun, 23-Apr 2017, 4:00 PM</item>
-        <item>Fri, 28-Apr 2017, 8:00 PM</item>
-        <item>Sun, 30-Apr 2017, 4:00 PM</item>
-        <item>Fri, 05-May 2017, 8:00 PM</item>
-        <item>Sun, 07-May 2017, 8:00 PM</item>
-        <item>Tue, 09-May 2017, 8:00 PM</item>
-        <item>Thr, 11-May 2017, 8:00 PM</item>
-        <item>Sun, 14-May 2017, 4:00 PM</item>
+        <item>Sat, 08-Apr 2018, 4:00 PM</item>
+        <item>Mon, 10-Apr 2018, 4:00 PM</item>
+        <item>Thr, 13-Apr 2018, 8:00 PM</item>
+        <item>Sat, 15-Apr 2018, 8:00 PM</item>
+        <item>Mon, 17-Apr 2018, 8:00 PM</item>
+        <item>Thr, 20-Apr 2018, 8:00 PM</item>
+        <item>Sun, 23-Apr 2018, 4:00 PM</item>
+        <item>Fri, 28-Apr 2018, 8:00 PM</item>
+        <item>Sun, 30-Apr 2018, 4:00 PM</item>
+        <item>Fri, 05-May 2018, 8:00 PM</item>
+        <item>Sun, 07-May 2018, 8:00 PM</item>
+        <item>Tue, 09-May 2018, 8:00 PM</item>
+        <item>Thr, 11-May 2018, 8:00 PM</item>
+        <item>Sun, 14-May 2018, 4:00 PM</item>
     </string-array>
 
     <string-array name="kp_match_play">
@@ -1102,20 +1093,20 @@
     </string-array>
 
     <string-array name="kkr_date">
-        <item>Fri, 07-Apr 2017, 8:00 PM</item>
-        <item>Sun, 09-Apr 2017, 8:00 PM</item>
-        <item>Thr, 13-Apr 2017, 8:00 PM</item>
-        <item>Sat, 15-Apr 2017, 4:00 PM</item>
-        <item>Mon, 17-Apr 2017, 4:00 PM</item>
-        <item>Fri, 21-Apr 2017, 8:00 PM</item>
-        <item>Sun, 23-Apr 2017, 8:00 PM</item>
-        <item>Wed, 26-Apr 2017, 8:00 PM</item>
-        <item>Fri, 28-Apr 2017, 4:00 PM</item>
-        <item>Sun, 30-Apr 2017, 8:00 PM</item>
-        <item>Wed, 03-May 2017, 8:00 PM</item>
-        <item>Sun, 07-May 2017, 4:00 PM</item>
-        <item>Tue, 09-May 2017, 8:00 PM</item>
-        <item>Sat, 13-May 2017, 8:00 PM</item>
+        <item>Fri, 07-Apr 2018, 8:00 PM</item>
+        <item>Sun, 09-Apr 2018, 8:00 PM</item>
+        <item>Thr, 13-Apr 2018, 8:00 PM</item>
+        <item>Sat, 15-Apr 2018, 4:00 PM</item>
+        <item>Mon, 17-Apr 2018, 4:00 PM</item>
+        <item>Fri, 21-Apr 2018, 8:00 PM</item>
+        <item>Sun, 23-Apr 2018, 8:00 PM</item>
+        <item>Wed, 26-Apr 2018, 8:00 PM</item>
+        <item>Fri, 28-Apr 2018, 4:00 PM</item>
+        <item>Sun, 30-Apr 2018, 8:00 PM</item>
+        <item>Wed, 03-May 2018, 8:00 PM</item>
+        <item>Sun, 07-May 2018, 4:00 PM</item>
+        <item>Tue, 09-May 2018, 8:00 PM</item>
+        <item>Sat, 13-May 2018, 8:00 PM</item>
     </string-array>
 
     <string-array name="kkr_match_play">

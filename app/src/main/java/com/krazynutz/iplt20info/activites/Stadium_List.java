@@ -118,20 +118,20 @@ public class Stadium_List extends AppCompatActivity
         ArrayList<String> data4 = new ArrayList<>(Arrays.asList(std_kol));
         kol.addAll(data4);
 
-        List<String> pun = new ArrayList<String>();
-        String[] std_pun= getResources().getStringArray(R.array.pune_std);
+        List<String> jai = new ArrayList<String>();
+        String[] std_pun= getResources().getStringArray(R.array.jai_std);
         ArrayList<String> data5 = new ArrayList<>(Arrays.asList(std_pun));
-        pun.addAll(data5);
+        jai.addAll(data5);
 
         List<String> del = new ArrayList<String>();
         String[] std_del= getResources().getStringArray(R.array.delhi_std);
         ArrayList<String> data6 = new ArrayList<>(Arrays.asList(std_del));
         del.addAll(data6);
 
-        List<String> raj = new ArrayList<String>();
-        String[] std_raj= getResources().getStringArray(R.array.raj_std);
-        ArrayList<String> data7 = new ArrayList<>(Arrays.asList(std_raj));
-        raj.addAll(data7);
+       // List<String> raj = new ArrayList<String>();
+       // String[] std_raj= getResources().getStringArray(R.array.raj_std);
+       // ArrayList<String> data7 = new ArrayList<>(Arrays.asList(std_raj));
+       // raj.addAll(data7);
 
         List<String> ind = new ArrayList<String>();
         String[] std_ind= getResources().getStringArray(R.array.ind_std);
@@ -143,10 +143,10 @@ public class Stadium_List extends AppCompatActivity
         ArrayList<String> data9 = new ArrayList<>(Arrays.asList(std_moh));
         moh.addAll(data9);
 
-        List<String> kan = new ArrayList<String>();
-        String[] std_kan= getResources().getStringArray(R.array.kan_std);
-        ArrayList<String> data10 = new ArrayList<>(Arrays.asList(std_kan));
-        kan.addAll(data10);
+       // List<String> kan = new ArrayList<String>();
+       // String[] std_kan= getResources().getStringArray(R.array.kan_std);
+       // ArrayList<String> data10 = new ArrayList<>(Arrays.asList(std_kan));
+       // kan.addAll(data10);
 
         List<String> chen = new ArrayList<String>();
         String[] std_chen= getResources().getStringArray(R.array.chen_std);
@@ -157,12 +157,12 @@ public class Stadium_List extends AppCompatActivity
         listDataChild.put(listDataHeader.get(1), ben);
         listDataChild.put(listDataHeader.get(2), mub);
         listDataChild.put(listDataHeader.get(3), kol);
-        listDataChild.put(listDataHeader.get(4), pun);
+        listDataChild.put(listDataHeader.get(4), jai);
         listDataChild.put(listDataHeader.get(5), del);
-        listDataChild.put(listDataHeader.get(6), raj);
-        listDataChild.put(listDataHeader.get(7), ind);
-        listDataChild.put(listDataHeader.get(8), moh);
-        listDataChild.put(listDataHeader.get(9), kan);
-        listDataChild.put(listDataHeader.get(10), chen);
+        //listDataChild.put(listDataHeader.get(6), raj);
+        listDataChild.put(listDataHeader.get(6), ind);
+        listDataChild.put(listDataHeader.get(7), moh);
+       // listDataChild.put(listDataHeader.get(9), kan);
+        listDataChild.put(listDataHeader.get(8), chen);
     }
 }
